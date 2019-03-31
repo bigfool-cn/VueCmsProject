@@ -1,0 +1,824 @@
+---------------------------------------------------------------
+[ 2018-05-19T20:42:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：1.357249s][吞吐率：0.74req/s] [内存消耗：1,566.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.752307s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.197737s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.003739s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.002562s ]
+---------------------------------------------------------------
+[ 2018-05-19T20:56:06+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.689636s][吞吐率：1.45req/s] [内存消耗：1,566.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.422801s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.038392s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001936s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001536s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:07:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.463584s][吞吐率：2.16req/s] [内存消耗：1,566.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.243433s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.063128s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002331s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001514s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:26:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory
+[ info ] www.vuecms.com/api/getimgcategory [运行时间：0.398891s][吞吐率：2.51req/s] [内存消耗：1,569.64kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.215207s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.031511s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.014839s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001616s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:29:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.193254s][吞吐率：5.17req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029407s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.034471s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.004899s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001828s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:30:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.187205s][吞吐率：5.34req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029461s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.023702s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.017065s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001623s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:32:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.213967s][吞吐率：4.67req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022728s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.027478s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.010954s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001762s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:34:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.342648s][吞吐率：2.92req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.189488s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.030539s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.002074s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001922s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:34:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.218724s][吞吐率：4.57req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008428s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.036723s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.006808s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.002989s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.197843s][吞吐率：5.05req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030595s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.031897s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.001771s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001374s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:46:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.432123s][吞吐率：2.31req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.224637s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.051504s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.009321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.002246s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:48:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.222932s][吞吐率：4.49req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024711s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.030301s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.013281s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.002083s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:52:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.244713s][吞吐率：4.09req/s] [内存消耗：1,569.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037451s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.031511s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001708s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001447s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:52:09+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.134100s][吞吐率：7.46req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006126s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.030053s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001347s ]
+---------------------------------------------------------------
+[ 2018-05-19T21:57:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.523185s][吞吐率：1.91req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.254873s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.031931s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.001956s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.002246s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:02:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.220122s][吞吐率：4.54req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034232s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.021288s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.006525s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001468s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:09:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.559210s][吞吐率：1.79req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.304386s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.028514s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.002038s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001706s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:19:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.486633s][吞吐率：2.05req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.281320s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.039939s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.010201s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001959s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:20:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.237827s][吞吐率：4.20req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038092s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.040102s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.012747s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001698s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:22:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.215010s][吞吐率：4.65req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026307s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.028549s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.001832s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001885s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:23:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.283494s][吞吐率：3.53req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128314s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.018696s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.007439s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001668s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:30:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.455058s][吞吐率：2.20req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.230175s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.029605s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.001775s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001429s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:31:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.186845s][吞吐率：5.35req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009982s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.033100s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.016380s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.002812s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:33:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.252415s][吞吐率：3.96req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041717s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.024041s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.007050s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001745s ]
+---------------------------------------------------------------
+[ 2018-05-19T22:34:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getimgcategory/
+[ info ] www.vuecms.com/api/getimgcategory/ [运行时间：0.206230s][吞吐率：4.85req/s] [内存消耗：1,569.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getImgCategory',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getImgCategory[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047209s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.022008s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.017672s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.001835s ]

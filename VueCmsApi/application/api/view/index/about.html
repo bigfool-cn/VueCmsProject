@@ -1,0 +1,116 @@
+﻿{extend name="index/base" /}
+{block name="title"}关于我{/block}
+{block name="css"}
+<link href="/static/css/about.css" rel="stylesheet">
+{/block}
+{block name="article"}
+<article>
+  <div class="contain">
+    <div class="banner">
+      <p data-scroll-reveal="enter top over 2s">或许，最美的事不是留住时光。</p>
+      <p data-scroll-reveal="enter left over 2s after 1s">而是留住记忆，如最初相识的感觉一样，哪怕一个不经意的笑容，便是我们最怀念的故事。</p>
+      <p data-scroll-reveal="enter bottom over 2s after 2s">但愿，时光，如初见。</p>
+    </div>
+    <div class="memorial_day">
+      <div class="time_axis"></div>
+      <ul>
+        <li class="n1"><a href="javascript::void(0);">出生</a>
+          <div class="dateview">1995-05-12</div>
+        </li>
+        <li class="n2"><a href="javascript:void(0);">上学</a>
+          <div class="dateview">2002-09-01</div>
+        </li>
+        <li class="n3"><a href="javascript:void(0);">初中毕业</a>
+          <div class="dateview">2012-07-01</div>
+        </li>
+        <li class="n4"><a href="javascript:void(0);">高中毕业</a>
+          <div class="dateview">2014-07-01</div>
+        </li>
+        <li class="n5"><a href="javascript:void(0);">大学毕业</a>
+          <div class="dateview">2018-07-01</div>
+        </li>
+      </ul>
+    </div>
+    <div class="about left">
+      <h2>I am here</h2>
+      <ul> 
+        <p>
+          <div id='allmap' class="map"></div> 
+        </p>
+      </ul>
+      <div id="getinfo" class="getinfo">
+        <audio src="someaudio.wav" autoplay>
+          您的浏览器不支持 audio 标签。
+        </audio>
+        <span class="inputName">
+            <input type="text" class="input" placeholder="输入姓名">
+        </span>
+        <span>
+            <input type="button" value="获取联系" class="button">
+        </span>
+      </div>
+      <div class="blog" data-scroll-reveal="enter top" >
+        <figure>
+          <ul>
+            <a href="/"><img src="/uploads/wechat.jpg" width="100%" height="100%"></a>
+          </ul>
+        </figure>
+        <figure>
+          <ul>
+            <a href="/"><img src="/uploads/qq.jpg" width="100%" height="100%"></a>
+          </ul>
+        </figure>
+        <figure>
+          <ul>
+            <a href="/"><img src="/uploads/phone.png" width="100%" height="100%"></a>
+          </ul>
+        </figure>
+      </div>
+      <h2>About my blog</h2>
+      <p>域  名：www.bigfool.cn</p>
+      <p>编程语言：PHP</p>
+      <p>模板来自：<a href="http://www.yangqq.com" target="_blank" style="font-size:15px;font-weight: 600;font-style: italic;">杨青个人博客</a></p>
+      <p>免责声明：本博客未注明原创的资源，均来自互联网，如无意侵犯了你的权益，请及时联系网站管理员，并提供相关证明，管理员将在24小时内删除。《 联系方式：1063944784@qq.com 》</p>
+    </div>
+  </div>
+  </aside>
+</article>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+  $(function(){
+    $("#about").css("color","#111");
+  });
+</script>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=FQGefAdzhVtzQTYGUp9PsDHcVu3UvBtl&s=1"></script>
+<script type="text/javascript">
+  var map = new BMap.Map("allmap");
+  map.centerAndZoom(new BMap.Point(116.331398,39.897445),15);
+  map.enableScrollWheelZoom(true);
+  map.clearOverlays(); 
+
+  var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+  var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+  var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
+  /*缩放控件type有四种类型:
+  BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；BMAP_NAVIGATION_CONTROL_ZOOM：仅包含缩放按钮*/
+  
+  //添加控件和比例尺
+  map.addControl(top_left_control);        
+  map.addControl(top_left_navigation);     
+  map.addControl(top_right_navigation);    
+
+  //经纬度定位
+  var new_point = new BMap.Point("{$location.x}","{$location.y}");//113.331133,23.11222
+  //创建人物
+  var myIcon = new BMap.Icon("/static/images/location.ico", new BMap.Size(60,100));
+  var marker = new BMap.Marker(new_point,{icon:myIcon});  // 创建标注
+  map.addOverlay(marker); 
+  map.panTo(new_point);               // 将标注添加到地图中
+  marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+  marker.addEventListener("click",getAttr);
+  function getAttr(){
+    alert("我在: {$location.address}");   
+  }
+</script>
+{/block}

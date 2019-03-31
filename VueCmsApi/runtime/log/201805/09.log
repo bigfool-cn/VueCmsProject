@@ -1,0 +1,3257 @@
+---------------------------------------------------------------
+[ 2018-05-09T21:00:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.vuecms.com/admin [运行时间：0.271239s][吞吐率：3.69req/s] [内存消耗：1,152.73kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:00:14+08:00 ] 127.0.0.1 127.0.0.1 GET /user/login.html
+[ info ] www.vuecms.com/user/login.html [运行时间：0.223040s][吞吐率：4.48req/s] [内存消耗：1,325.95kb] [文件加载：40]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\user\login.html [ array (
+  0 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:00:31+08:00 ] 127.0.0.1 127.0.0.1 POST /user/login.html
+[ info ] www.vuecms.com/user/login.html [运行时间：0.526459s][吞吐率：1.90req/s] [内存消耗：1,900.43kb] [文件加载：43]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '37',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'csj1063944784',
+)
+[ info ] [ RUN ] app\index\controller\User->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.322873s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.065321s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.004215s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:00:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.131555s][吞吐率：7.60req/s] [内存消耗：1,341.88kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:01:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.114639s][吞吐率：8.72req/s] [内存消耗：1,341.84kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:24:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.167918s][吞吐率：5.96req/s] [内存消耗：1,340.45kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:24:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userlog/loginlog.html
+[ info ] www.vuecms.com/index/userlog/loginlog.html [运行时间：0.182511s][吞吐率：5.48req/s] [内存消耗：906.32kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userlog',
+    2 => 'loginlog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:24:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.421138s][吞吐率：2.37req/s] [内存消耗：1,339.66kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:24:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.126148s][吞吐率：7.93req/s] [内存消耗：1,210.34kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:24:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index_swipe/index.html
+[ info ] www.vuecms.com/index/index_swipe/index.html [运行时间：0.099804s][吞吐率：10.02req/s] [内存消耗：906.37kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index_swipe',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:25:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.209407s][吞吐率：4.78req/s] [内存消耗：1,339.66kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:25:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.120745s][吞吐率：8.28req/s] [内存消耗：1,210.34kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:25:15+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/list.html
+[ info ] www.vuecms.com/swipe/list.html [运行时间：0.191054s][吞吐率：5.23req/s] [内存消耗：1,179.12kb] [文件加载：40]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'think\DB' not found[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php:17]
+---------------------------------------------------------------
+[ 2018-05-09T21:25:32+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/list.html
+[ info ] www.vuecms.com/swipe/list.html [运行时间：0.193688s][吞吐率：5.16req/s] [内存消耗：1,649.23kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->all[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\library\think\db\Query.php:93]
+---------------------------------------------------------------
+[ 2018-05-09T21:26:00+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/list.html
+[ info ] www.vuecms.com/swipe/list.html [运行时间：0.439791s][吞吐率：2.27req/s] [内存消耗：1,710.52kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159985s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.127555s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` [ RunTime:0.001622s ]
+[ error ] [0]致命错误: Call to a member function lastPage() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T21:28:01+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/list.html
+[ info ] www.vuecms.com/swipe/list.html [运行时间：0.327471s][吞吐率：3.05req/s] [内存消耗：1,773.55kb] [文件加载：48]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021980s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.037438s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.005391s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.002008s ]
+[ error ] [0]模板文件不存在:G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-05-09T21:28:33+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/list.html
+[ info ] www.vuecms.com/swipe/list.html [运行时间：0.311355s][吞吐率：3.21req/s] [内存消耗：1,949.44kb] [文件加载：49]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030716s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.032470s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.012106s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001953s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:29:13+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/list.html
+[ info ] www.vuecms.com/swipe/list.html [运行时间：0.194506s][吞吐率：5.14req/s] [内存消耗：1,812.44kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009740s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.039034s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001888s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001344s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:29:39+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/list.html
+[ info ] www.vuecms.com/swipe/list.html [运行时间：0.104124s][吞吐率：9.60req/s] [内存消耗：906.31kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'swipe',
+    1 => 'list',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:29:46+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index
+[ info ] www.vuecms.com/swipe/index [运行时间：0.195149s][吞吐率：5.12req/s] [内存消耗：1,812.12kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020687s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.030438s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.003991s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001355s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:30:20+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index
+[ info ] www.vuecms.com/swipe/index [运行时间：0.229964s][吞吐率：4.35req/s] [内存消耗：1,949.40kb] [文件加载：49]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021940s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.038327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001406s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:30:22+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index.html
+[ info ] www.vuecms.com/swipe/index.html [运行时间：0.241909s][吞吐率：4.13req/s] [内存消耗：1,812.45kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.083110s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.010600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001867s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001456s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:37:25+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index.html
+[ info ] www.vuecms.com/swipe/index.html [运行时间：0.357308s][吞吐率：2.80req/s] [内存消耗：1,949.87kb] [文件加载：49]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.145005s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.030894s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.003587s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001346s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.233623s][吞吐率：4.28req/s] [内存消耗：1,379.02kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: status[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\runtime\temp\dd489ac27e4dffe05e46931b678cee34.php:90]
+---------------------------------------------------------------
+[ 2018-05-09T21:38:29+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.123435s][吞吐率：8.10req/s] [内存消耗：1,353.65kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:38:49+08:00 ] 127.0.0.1 127.0.0.1 POST /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.592163s][吞吐率：1.69req/s] [内存消耗：1,811.39kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu6x0r4TAwNIIQC17',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '35240',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012361s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.037323s ]
+[ sql ] [ SQL ] INSERT INTO `think_swipe` (`url`) VALUES ('0') [ RunTime:0.057229s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:38:52+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.107149s][吞吐率：9.33req/s] [内存消耗：1,216.88kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:39:41+08:00 ] 127.0.0.1 127.0.0.1 POST /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.359708s][吞吐率：2.78req/s] [内存消耗：1,698.39kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIyFickaJtjtuGWtE',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '35240',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016910s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.059871s ]
+[ sql ] [ SQL ] INSERT INTO `think_swipe` (`url`) VALUES ('http://www.vuecms.com/uploads/article/faces/20180509\\7bb2d513fd614ee513cec684f7950711.jpg') [ RunTime:0.055451s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:39:44+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.141805s][吞吐率：7.05req/s] [内存消耗：1,216.88kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:40:54+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index.html
+[ info ] www.vuecms.com/swipe/index.html [运行时间：0.256946s][吞吐率：3.89req/s] [内存消耗：1,813.67kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013220s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.049161s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001642s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001475s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:41:04+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.125076s][吞吐率：8.00req/s] [内存消耗：1,353.66kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:41:13+08:00 ] 127.0.0.1 127.0.0.1 POST /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.294916s][吞吐率：3.39req/s] [内存消耗：1,698.38kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybPZrIQ311YgY0XXe',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '27929',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013296s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.031401s ]
+[ sql ] [ SQL ] INSERT INTO `think_swipe` (`url`) VALUES ('http://www.vuecms.com/uploads/swipe/20180509\\20d29bd8907f6ca3ec1cf15d56fe1a6a.jpg') [ RunTime:0.078793s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:41:16+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.114036s][吞吐率：8.77req/s] [内存消耗：1,216.88kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:41:25+08:00 ] 127.0.0.1 127.0.0.1 POST /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.242484s][吞吐率：4.12req/s] [内存消耗：1,698.38kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLlpY9UCVlVr2xTxA',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28070',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006332s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.042069s ]
+[ sql ] [ SQL ] INSERT INTO `think_swipe` (`url`) VALUES ('http://www.vuecms.com/uploads/swipe/20180509\\688197d2f79c9bbea14fac4090909a08.jpg') [ RunTime:0.035990s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:41:28+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.109020s][吞吐率：9.17req/s] [内存消耗：1,216.88kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:47:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getSwipe
+[ info ] www.vuecms.com/api/getSwipe [运行时间：0.112273s][吞吐率：8.91req/s] [内存消耗：898.88kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getSwipe',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:47:40+08:00 ] 127.0.0.1 127.0.0.1 GET /getSwipe
+[ info ] www.vuecms.com/getSwipe [运行时间：0.092886s][吞吐率：10.77req/s] [内存消耗：898.33kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getSwipe',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:48:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getSwipe
+[ info ] www.vuecms.com/api/getSwipe [运行时间：0.102142s][吞吐率：9.79req/s] [内存消耗：998.31kb] [文件加载：35]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:48:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.106437s][吞吐率：9.40req/s] [内存消耗：998.31kb] [文件加载：35]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:49:09+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index
+[ info ] www.vuecms.com/swipe/index [运行时间：0.346899s][吞吐率：2.88req/s] [内存消耗：1,806.91kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.154853s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.039831s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001428s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:50:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.124791s][吞吐率：8.01req/s] [内存消耗：998.84kb] [文件加载：35]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:50:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.103845s][吞吐率：9.63req/s] [内存消耗：998.84kb] [文件加载：35]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:50:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.097820s][吞吐率：10.22req/s] [内存消耗：1,480.16kb] [文件加载：35]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T21:50:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.143230s][吞吐率：6.98req/s] [内存消耗：1,640.66kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class think\db\Query could not be converted to string[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:11]
+---------------------------------------------------------------
+[ 2018-05-09T21:51:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.145072s][吞吐率：6.89req/s] [内存消耗：1,640.66kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class think\db\Query could not be converted to string[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:11]
+---------------------------------------------------------------
+[ 2018-05-09T21:51:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.138137s][吞吐率：7.24req/s] [内存消耗：1,640.78kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant url - assumed 'url'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:11]
+---------------------------------------------------------------
+[ 2018-05-09T21:52:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.296332s][吞吐率：3.37req/s] [内存消耗：1,697.57kb] [文件加载：44]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.076330s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.049580s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` [ RunTime:0.001889s ]
+[ error ] [0]致命错误: Call to a member function limit() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:10]
+---------------------------------------------------------------
+[ 2018-05-09T21:52:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.156083s][吞吐率：6.41req/s] [内存消耗：1,697.57kb] [文件加载：44]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006491s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.003790s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` [ RunTime:0.001457s ]
+[ error ] [0]致命错误: Call to a member function limit() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:10]
+---------------------------------------------------------------
+[ 2018-05-09T21:52:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.232871s][吞吐率：4.29req/s] [内存消耗：1,698.90kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068189s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.026721s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 1 [ RunTime:0.001646s ]
+[ error ] [8]Use of undefined constant url - assumed 'url'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:11]
+---------------------------------------------------------------
+[ 2018-05-09T21:52:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.141894s][吞吐率：7.05req/s] [内存消耗：1,560.06kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008175s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.005589s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 1 [ RunTime:0.001815s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:53:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.151335s][吞吐率：6.61req/s] [内存消耗：1,560.95kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015988s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.037314s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 3 [ RunTime:0.001461s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:56:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.311687s][吞吐率：3.21req/s] [内存消耗：1,677.72kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.143288s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.026329s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_swipe` LIMIT 3 [ RunTime:0.012162s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:56:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.216052s][吞吐率：4.63req/s] [内存消耗：1,678.27kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030243s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.028972s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.003705s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:00:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.184586s][吞吐率：5.42req/s] [内存消耗：1,678.27kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018445s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.038099s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001513s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:00:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.224629s][吞吐率：4.45req/s] [内存消耗：1,678.27kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010026s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.057674s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.002240s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:01:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.182957s][吞吐率：5.47req/s] [内存消耗：1,678.27kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023584s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.028544s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001506s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:02:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.220705s][吞吐率：4.53req/s] [内存消耗：1,678.27kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035349s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.060131s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001638s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:09:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.368638s][吞吐率：2.71req/s] [内存消耗：1,678.27kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.192829s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.039001s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001781s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:12:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.248760s][吞吐率：4.02req/s] [内存消耗：1,678.27kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018065s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.038916s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001839s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:12:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.231731s][吞吐率：4.32req/s] [内存消耗：1,678.27kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006681s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.088554s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001476s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:13:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.390726s][吞吐率：2.56req/s] [内存消耗：1,677.37kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042149s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.190814s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.025547s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:15:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.313591s][吞吐率：3.19req/s] [内存消耗：1,677.91kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.144074s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.029399s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001653s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:15:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.240441s][吞吐率：4.16req/s] [内存消耗：1,677.91kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010658s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.006700s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.002288s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:17:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.222818s][吞吐率：4.49req/s] [内存消耗：1,677.91kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042669s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.036421s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001577s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:18:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.248301s][吞吐率：4.03req/s] [内存消耗：1,678.45kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008348s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.076732s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001397s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:21:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.172853s][吞吐率：5.79req/s] [内存消耗：1,562.53kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018764s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.030013s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.002049s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:22:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.149490s][吞吐率：6.69req/s] [内存消耗：1,562.53kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018145s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.028946s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001628s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:23:06+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.171600s][吞吐率：5.83req/s] [内存消耗：1,562.42kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016405s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.029620s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.012622s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:23:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.176737s][吞吐率：5.66req/s] [内存消耗：1,562.45kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031583s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.029687s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001600s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:30:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.705510s][吞吐率：1.42req/s] [内存消耗：1,561.69kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.335916s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.106707s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001853s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:38:44+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index
+[ info ] www.vuecms.com/swipe/index [运行时间：0.501167s][吞吐率：2.00req/s] [内存消耗：1,944.29kb] [文件加载：49]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149767s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.040563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.016989s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.030973s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:38:48+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.172169s][吞吐率：5.81req/s] [内存消耗：1,352.49kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T22:39:35+08:00 ] 127.0.0.1 127.0.0.1 POST /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.445680s][吞吐率：2.24req/s] [内存消耗：1,694.23kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXk7SbGeAsMPhBP3K',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '35362',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.vuecms.com/index.html',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021510s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.065277s ]
+[ sql ] [ SQL ] INSERT INTO `think_swipe` (`url` , `img`) VALUES ('http://www.vuecms.com/index.html' , 'http://www.vuecms.com/uploads/swipe/20180509\\924f18917325a09d7fa671d8d0b06c5b.jpg') [ RunTime:0.063475s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:39:38+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.115061s][吞吐率：8.69req/s] [内存消耗：1,211.34kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T22:39:53+08:00 ] 127.0.0.1 127.0.0.1 POST /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.372411s][吞吐率：2.69req/s] [内存消耗：1,694.23kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRv3ZC2mQFA4IyIPp',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28051',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.vuecms.com/index.html',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030079s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.074768s ]
+[ sql ] [ SQL ] INSERT INTO `think_swipe` (`url` , `img`) VALUES ('http://www.vuecms.com/index.html' , 'http://www.vuecms.com/uploads/swipe/20180509\\077c92ce19541170bfffe1efbafe124b.jpg') [ RunTime:0.098682s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:39:57+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.107241s][吞吐率：9.32req/s] [内存消耗：1,211.34kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T22:40:07+08:00 ] 127.0.0.1 127.0.0.1 POST /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.265843s][吞吐率：3.76req/s] [内存消耗：1,694.23kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4lr2FLlp7NJRsa32',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '28192',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://www.vuecms.com/index.html',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008341s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.041462s ]
+[ sql ] [ SQL ] INSERT INTO `think_swipe` (`url` , `img`) VALUES ('http://www.vuecms.com/index.html' , 'http://www.vuecms.com/uploads/swipe/20180509\\2e896eabeaf7dd89bbbfa086c14f4898.jpg') [ RunTime:0.044135s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:40:10+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/add.html
+[ info ] www.vuecms.com/swipe/add.html [运行时间：0.117176s][吞吐率：8.53req/s] [内存消耗：1,211.34kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'add',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T22:40:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.248731s][吞吐率：4.02req/s] [内存消耗：1,562.23kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.100330s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.031938s ]
+[ sql ] [ SQL ] SELECT `id`,`url` FROM `think_swipe` LIMIT 3 [ RunTime:0.001986s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:41:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.106539s][吞吐率：9.39req/s] [内存消耗：1,481.98kb] [文件加载：35]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T22:41:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.201279s][吞吐率：4.97req/s] [内存消耗：1,563.23kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007743s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.094373s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001963s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:41:36+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index.html
+[ info ] www.vuecms.com/swipe/index.html [运行时间：0.229292s][吞吐率：4.36req/s] [内存消耗：1,809.19kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Swipe',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/swipe/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Swipe->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Swipe.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\swipe\index.html [ array (
+  0 => 'swipes',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019007s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.031080s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` LIMIT 0,20 [ RunTime:0.001531s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:46:09+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.460240s][吞吐率：2.17req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.194495s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.041137s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002009s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:46:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.177507s][吞吐率：5.63req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007986s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.045103s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.003112s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:47:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.328501s][吞吐率：3.04req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026238s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.046139s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.003217s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:47:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.399671s][吞吐率：2.50req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045234s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.080055s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002063s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:50:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.250940s][吞吐率：3.99req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030902s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.040286s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001891s ]
+---------------------------------------------------------------
+[ 2018-05-09T22:52:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.482273s][吞吐率：2.07req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.233762s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.042306s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001889s ]

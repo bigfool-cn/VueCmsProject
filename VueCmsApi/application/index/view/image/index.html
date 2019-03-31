@@ -1,0 +1,72 @@
+{extend name="common/base" /}
+{block name="title"}图文列表{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 图文列表</h1>
+{/block}
+{block name="page_path"}
+<li class="breadcrumb-item">图文管理</li>
+<li class="breadcrumb-item">图文列表</li>
+{/block}
+{block name="content"}
+<div class="tile">
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>标题</th>
+            <th>所属分类</th>
+            <th>封面</th>
+        </tr>
+        </thead>
+        <tbody>
+        {volist name="imgs" id="img"}
+        <tr>
+            <td>{$img.img_id}</td>
+            <td>{$img.img_title}</td>
+            <td>{$img.title}</td>
+            <td><img src="{$img.img}" width="60" height="30"></td>
+        </tr>
+        {/volist}
+        </tbody>
+    </table>
+    <ul class="pagination">
+        {if condition="$current_page==1"}
+        <li class="paginate_button page-item previous disabled" id="sampleTable_previous">
+            <a href="" aria-controls="sampleTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+        </li>
+        {else /}
+        <li class="paginate_button page-item previous" id="sampleTable_previous">
+            <a href='?page={$current_page-1}' aria-controls="sampleTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+        </li>
+        {/if}
+        {for start="1" end="$pages+1" step="1" name="page"}
+        {if condition="$page==$current_page"}
+        <li class="paginate_button page-item active">
+            <a href="javascript:;" aria-controls="sampleTable" data-dt-idx="1" tabindex="0" class="page-link">{$page}</a>
+        </li>
+        {else /}
+        <li class="paginate_button page-item ">
+            <a href='?page={$page}' aria-controls="sampleTable" data-dt-idx="2" tabindex="0" class="page-link">{$page}</a>
+        </li>
+        {/if}
+        {/for}
+        {if condition="$current_page eq $pages"}
+        <li class="paginate_button page-item next disabled" id="sampleTable_next">
+            <a href="#" aria-controls="sampleTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a>
+        </li>
+        {else /}
+        <li class="paginate_button page-item next" id="sampleTable_next">
+            <a href='?page={$current_page+1}' aria-controls="sampleTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a>
+        </li>
+        {/if}
+    </ul>
+</div>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#m-4").addClass('is-expanded');
+        $("#m-4-1").addClass('active');
+    })
+</script>>
+{/block}

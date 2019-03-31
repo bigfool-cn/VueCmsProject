@@ -1,0 +1,39 @@
+﻿{extend name="index/base" /}
+{block name="title"}分享下载{/block}
+{block name="css"}
+<link href="/static/css/share.css" rel="stylesheet">
+{/block}
+{block name="article"}
+<article>
+  <div class="contain">
+    <div class="blog" data-scroll-reveal="enter top" >
+      {volist name="shares" id="share"}
+        <figure>
+          <ul>
+            <a href="{$share.url}" target="_blank"><img src="{$share.image}"><span>我要下载</span></a>
+          </ul>
+          <p><a href="{$share.url}" target="_blank">{$share.title}</a></p>
+          <figcaption>{$share.desc}</figcaption>
+        </figure>
+      {/volist}
+    </div>
+    <div class="page-li" id="pagination" >
+    </div>
+    <input type="hidden" id="PageCount" runat="server" value="{$pages}"/>
+    <input type="hidden" id="PageNum" runat="server" value="{$current_page}"/>
+  </div>
+</article>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+  $(function(){
+    $("#download").css("color","#111");
+  });
+</script>
+<script src="/static/js/jqpaginator.min.js" type="text/javascript"></script>
+<script src="/static/js/mypage.js" type="text/javascript"></script>
+{/block}
+
+
+
+

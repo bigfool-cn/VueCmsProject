@@ -1,0 +1,25 @@
+---------------------------------------------------------------
+[ 2018-06-30T10:22:25+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2018-06-30T10:22:42+08:00 ] 172.16.0.5 193.112.43.41 GET /api/goodslist/?page=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` LIMIT 0,8 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1 [ RunTime:0.000194s ]
+---------------------------------------------------------------
+[ 2018-06-30T10:22:58+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000434s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000202s ]
+---------------------------------------------------------------
+[ 2018-06-30T10:23:02+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getnewslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.000176s ]

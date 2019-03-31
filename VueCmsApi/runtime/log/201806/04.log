@@ -1,0 +1,1944 @@
+---------------------------------------------------------------
+[ 2018-06-04T15:02:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.476543s][吞吐率：2.10req/s] [内存消耗：1,579.20kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038725s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.012732s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001589s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:03:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsgetail/2
+[ info ] www.vuecms.com/api/goodsgetail/2 [运行时间：0.195126s][吞吐率：5.12req/s] [内存消耗：900.56kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goodsgetail',
+    2 => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-04T15:03:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.069139s][吞吐率：14.46req/s] [内存消耗：945.24kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-04T15:04:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.143894s][吞吐率：6.95req/s] [内存消耗：1,585.64kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011946s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.008242s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.002677s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:06:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.236208s][吞吐率：4.23req/s] [内存消耗：1,677.75kb] [文件加载：46]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007020s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.024595s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-06-04T15:06:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.149420s][吞吐率：6.69req/s] [内存消耗：1,584.22kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027054s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.023341s ]
+[ sql ] [ SQL ] SELECT * FROM `think_good_images` WHERE  `goodimages_id` = 2 LIMIT 1 [ RunTime:0.001807s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:06:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.149625s][吞吐率：6.68req/s] [内存消耗：1,583.94kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017435s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.020045s ]
+[ sql ] [ SQL ] SELECT * FROM `think_good_images` WHERE  `goodimages_id` = 1 LIMIT 1 [ RunTime:0.001892s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:07:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.268273s][吞吐率：3.73req/s] [内存消耗：1,584.90kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018176s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.119965s ]
+[ sql ] [ SQL ] SELECT * FROM `think_good_images` WHERE  `goodimages_id` = 1 [ RunTime:0.005270s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `goodimages_id` = 1 LIMIT 1 [ RunTime:0.003823s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:07:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.141506s][吞吐率：7.07req/s] [内存消耗：1,584.62kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015940s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.016044s ]
+[ sql ] [ SQL ] SELECT * FROM `think_good_images` WHERE  `goodimages_id` = 2 [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `goodimages_id` = 2 LIMIT 1 [ RunTime:0.001575s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:07:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.140405s][吞吐率：7.12req/s] [内存消耗：1,585.59kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020921s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.018805s ]
+[ sql ] [ SQL ] SELECT * FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.002636s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.001745s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:08:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.168053s][吞吐率：5.95req/s] [内存消耗：1,584.55kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029000s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.028725s ]
+[ sql ] [ SQL ] SELECT * FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001369s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:08:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.166500s][吞吐率：6.01req/s] [内存消耗：1,584.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=8e15nhmsircr54rb5siolsvjs5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022246s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.012158s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.004708s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001613s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:10:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodslist/?page=1
+[ info ] www.vuecms.com/api/goodslist/?page=1 [运行时间：0.425145s][吞吐率：2.35req/s] [内存消耗：1,655.58kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsList[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028070s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.032381s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1 [ RunTime:0.007252s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` LIMIT 0,8 [ RunTime:0.002402s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1 [ RunTime:0.002258s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:10:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/undefined
+[ info ] www.vuecms.com/api/goodsdetail/undefined [运行时间：0.088193s][吞吐率：11.34req/s] [内存消耗：861.28kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goodsdetail',
+    2 => 'undefined',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-04T15:10:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/undefined
+[ info ] www.vuecms.com/api/goodimages/undefined [运行时间：0.072548s][吞吐率：13.78req/s] [内存消耗：861.27kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goodimages',
+    2 => 'undefined',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-04T15:13:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/undefined
+[ info ] www.vuecms.com/api/goodsdetail/undefined [运行时间：0.188613s][吞吐率：5.30req/s] [内存消耗：861.28kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goodsdetail',
+    2 => 'undefined',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-04T15:13:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/undefined
+[ info ] www.vuecms.com/api/goodimages/undefined [运行时间：0.080285s][吞吐率：12.46req/s] [内存消耗：861.27kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goodimages',
+    2 => 'undefined',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-04T15:13:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodslist/?page=1
+[ info ] www.vuecms.com/api/goodslist/?page=1 [运行时间：0.203090s][吞吐率：4.92req/s] [内存消耗：1,655.58kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsList[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020699s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.041361s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1 [ RunTime:0.001852s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` LIMIT 0,8 [ RunTime:0.001817s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1 [ RunTime:0.001668s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:15:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.270308s][吞吐率：3.70req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012433s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.019618s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.012044s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:15:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.185243s][吞吐率：5.40req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032924s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.003952s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.001803s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001679s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:16:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.229727s][吞吐率：4.35req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025921s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.009546s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.006965s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:16:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.103959s][吞吐率：9.62req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006969s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.003454s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.001356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001545s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:16:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.245171s][吞吐率：4.08req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034375s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.027426s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.012386s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:16:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.117798s][吞吐率：8.49req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006220s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.005353s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001408s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:19:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.371339s][吞吐率：2.69req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051547s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.034831s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002270s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:19:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.457064s][吞吐率：2.19req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027453s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.004860s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.001901s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001721s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:31:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.231191s][吞吐率：4.33req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048459s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.047429s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003004s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:31:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.197667s][吞吐率：5.06req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051549s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.014370s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.001975s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001799s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:32:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.785205s][吞吐率：1.27req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040024s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.017483s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003698s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:32:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.991501s][吞吐率：1.01req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.078642s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.004293s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.002036s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001803s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:35:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.223648s][吞吐率：4.47req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035726s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.024125s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.005225s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:35:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.139546s][吞吐率：7.17req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008016s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.004167s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.002200s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001407s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:36:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.146864s][吞吐率：6.81req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026056s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.012983s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.007979s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:36:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.124134s][吞吐率：8.06req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006890s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.007017s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.001878s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001989s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/1
+[ info ] www.vuecms.com/api/goodsdetail/1 [运行时间：0.503448s][吞吐率：1.99req/s] [内存消耗：1,589.09kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060307s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.067382s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.014940s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/1
+[ info ] www.vuecms.com/api/goodimages/1 [运行时间：0.494958s][吞吐率：2.02req/s] [内存消耗：1,585.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058519s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.072652s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 1 [ RunTime:0.017910s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 1 LIMIT 1 [ RunTime:0.001737s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodslist/?page=1
+[ info ] www.vuecms.com/api/goodslist/?page=1 [运行时间：0.253702s][吞吐率：3.94req/s] [内存消耗：1,655.58kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsList[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045575s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.021123s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1 [ RunTime:0.002074s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` LIMIT 0,8 [ RunTime:0.002195s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_goods` LIMIT 1 [ RunTime:0.001526s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.166784s][吞吐率：6.00req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007583s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.023686s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001866s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.172340s][吞吐率：5.80req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024697s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.007685s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.001971s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.002130s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.233495s][吞吐率：4.28req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032254s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.021208s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.008733s ]
+---------------------------------------------------------------
+[ 2018-06-04T15:58:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.288998s][吞吐率：3.46req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015614s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.004444s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.002121s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.001859s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:30:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：8.638501s][吞吐率：0.12req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:5.472061s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:2.574756s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.430028s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.031474s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:30:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：6.951297s][吞吐率：0.14req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:3.757529s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:2.917419s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.164286s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:31:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：1.014018s][吞吐率：0.99req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.211895s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.574497s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.028276s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:31:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：1.034046s][吞吐率：0.97req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.077067s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.654172s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.082890s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.008716s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:31:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.397040s][吞吐率：2.52req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028740s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.092180s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.008796s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:31:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.445765s][吞吐率：2.24req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060679s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.095088s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.014940s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.003809s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:42:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.719895s][吞吐率：1.39req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.074839s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.365120s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.022275s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.007398s ]
+---------------------------------------------------------------
+[ 2018-06-04T21:42:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.721692s][吞吐率：1.39req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029162s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.486890s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.027547s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:00:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.897342s][吞吐率：1.11req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.082411s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.093290s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.076507s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.001850s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:00:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.915183s][吞吐率：1.09req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.160208s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.100748s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.032405s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:01:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.361271s][吞吐率：2.77req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033129s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.159872s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.017272s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:01:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.364683s][吞吐率：2.74req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026788s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.149849s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.039013s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.001908s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:02:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.302335s][吞吐率：3.31req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021695s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.053202s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.011540s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:02:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.216097s][吞吐率：4.63req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010453s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.015459s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.002100s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.001520s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:03:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.343315s][吞吐率：2.91req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039641s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.069401s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.002407s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:03:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.252359s][吞吐率：3.96req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018802s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.031326s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.002264s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.001969s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:03:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodsdetail/2
+[ info ] www.vuecms.com/api/goodsdetail/2 [运行时间：0.203216s][吞吐率：4.92req/s] [内存消耗：1,589.34kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodsDetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodsDetail[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017435s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_goods` [ RunTime:0.041372s ]
+[ sql ] [ SQL ] SELECT * FROM `think_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.002146s ]
+---------------------------------------------------------------
+[ 2018-06-04T22:03:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/goodimages/2
+[ info ] www.vuecms.com/api/goodimages/2 [运行时间：0.164458s][吞吐率：6.08req/s] [内存消耗：1,585.91kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'goodImages',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; name=13126051483; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMCwidXNlcm5hbWUiOiIxMzEyNjA1MTQ4MyIsImV4cCI6MTUyODQ2MDczMSwiZW1haWwiOm51bGx9.Vzy_0igNnZqNMnSmkOxOnH6aUY8swxtEPNlazo55WEw',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Api->goodImages[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023613s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_good_images` [ RunTime:0.004593s ]
+[ sql ] [ SQL ] SELECT `url` FROM `think_good_images` WHERE  `good_id` = 2 [ RunTime:0.002474s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_good_images` WHERE  `good_id` = 2 LIMIT 1 [ RunTime:0.002139s ]

@@ -1,0 +1,119 @@
+{extend name="common/base" /}
+{block name="title"}添加新闻{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 添加新闻</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">新闻管理</li>
+    <li class="breadcrumb-item">添加新闻</li>
+{/block}
+{block name="content"}
+	<form action="{:url('index/News/add')}" method="post" enctype="multipart/form-data" onsubmit="return validForm()">
+		<div class="form-group">
+			<label class="control-label">标题:</label>
+			<input class="form-control" type="text" id="title" name="title">
+		</div>
+		<div class="form-group">
+	        <label class="control-label">封面:</label>
+	        <div class="col-lg-3" style="margin-left: -14px">
+            	<img class="form-control" id="imageShow" name="pic" width="150" height="140" />
+        	</div>
+			<input type="file" class="form-control-file" name="image" id="image" onchange="imgPreview(this)" />
+	    </div>
+	    <div class="form-group">
+	        <label class="control-label">文章内容:</label>
+	        <textarea type="text" id="EditorId" name="content"></textarea>
+	    </div>
+	  	<button class="btn btn-primary" type="submit">添加</button>
+	</form>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#m-3").addClass('is-expanded');
+        $("#m-3-2").addClass('active');
+    })
+</script>
+<script type="text/javascript">
+    function imgPreview(fileDom){
+        //判断是否支持FileReader
+        if (window.FileReader) {
+            var reader = new FileReader();
+        } else {
+            alert("您的设备不支持图片预览功能，如需该功能请升级您的设备！");
+        }
+
+        //获取文件
+        var file = fileDom.files[0];
+        var ext=fileDom.value.substring(fileDom.value.lastIndexOf(".")+1).toLowerCase();
+        // gif在IE浏览器暂时无法显示
+        if(ext!='png'&&ext!='jpg'&&ext!='jpeg'){
+			if (ext != '') {
+				alert("图片的格式必须为png或者jpg或者jpeg格式！");
+			}
+			image_file = $("#image");
+			image_file.after(image_file.clone().val(""));
+			image_file.remove();
+			return;
+        }else{
+			if(((fileDom.files[0].size).toFixed(2))>=(2*1024*1024)){
+				alert("请上传小于2M的图片");
+				image_file = $("#image");
+				image_file.after(image_file.clone().val(""));
+				image_file.remove();
+			    return;
+			}
+        }
+        //读取完成
+        reader.onload = function(e) {
+            //获取图片dom
+            var img = document.getElementById("imageShow");
+            //图片路径设置为读取的图片
+            img.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+    }
+</script>
+<script type="text/javascript" src="/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" src="/ueditor/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8">
+	//初始化编辑器
+	window.UEDITOR_HOME_URL = "/ueditor/";//配置路径设定为UEditor所放的位置
+	window.UEDITOR_CONFIG.initialFrameHeight=600;//编辑器的高度 
+	window.onload=function(){
+        var editor = new UE.ui.Editor({
+            imageUrl : '',
+            fileUrl : '',
+            imagePath : '',
+            filePath : '',
+            imageManagerUrl:'', //图片在线管理的处理地址
+            imageManagerPath:'__ROOT__/'
+        });
+        editor.render("EditorId");//此处的EditorId与<textarea name="content" id="EditorId">的id值对应 </textarea>
+	}
+</script>
+<script>
+  function validForm()
+  {
+    title = $.trim($("#title").val());
+    image = $.trim($("#image").val());
+    content = $.trim(UE.getContent());
+    if(title=="")
+    {
+      alert("标题不能为空");
+      return false;
+    }
+    if(image=="")
+    {
+      alert("封面图不能为空");
+      return false;
+    }
+    if(content=="")
+    {
+      alert("文章内容不能为空");
+      return false;
+    }
+    
+  }
+</script> 
+{/block}

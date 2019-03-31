@@ -1,0 +1,5049 @@
+---------------------------------------------------------------
+[ 2018-06-14T14:35:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.768111s][吞吐率：1.30req/s] [内存消耗：1,632.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.174174s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.320883s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.086732s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.078438s ]
+---------------------------------------------------------------
+[ 2018-06-14T15:14:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.409696s][吞吐率：2.44req/s] [内存消耗：1,632.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127950s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.089315s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.014392s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.002519s ]
+---------------------------------------------------------------
+[ 2018-06-14T15:57:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：1.092798s][吞吐率：0.92req/s] [内存消耗：880.36kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getUserInfo',
+    2 => 'vuecms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T15:59:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.141477s][吞吐率：7.07req/s] [内存消耗：880.36kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getUserInfo',
+    2 => 'vuecms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:03:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.097781s][吞吐率：10.23req/s] [内存消耗：880.36kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getUserInfo',
+    2 => 'vuecms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:04:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.146087s][吞吐率：6.85req/s] [内存消耗：1,105.78kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:04:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.114994s][吞吐率：8.70req/s] [内存消耗：1,068.88kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:05:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.578981s][吞吐率：1.73req/s] [内存消耗：1,679.05kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.091756s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.151587s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.201240s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:06:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.099757s][吞吐率：10.02req/s] [内存消耗：1,068.88kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:06:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.621270s][吞吐率：1.61req/s] [内存消耗：1,679.05kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.102175s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.374378s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.033601s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:06:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.115163s][吞吐率：8.68req/s] [内存消耗：1,105.84kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:07:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.081575s][吞吐率：12.26req/s] [内存消耗：1,105.81kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:07:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.117695s][吞吐率：8.50req/s] [内存消耗：1,105.81kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:08:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.098112s][吞吐率：10.19req/s] [内存消耗：1,105.84kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:13:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.076604s][吞吐率：13.05req/s] [内存消耗：1,105.19kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'b9c53443-7b7b-45f9-9eb6-b49f2caea93f',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:14:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.077588s][吞吐率：12.89req/s] [内存消耗：1,105.48kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '847e4474-45ee-4403-8c83-1015094bd40a',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:14:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.076526s][吞吐率：13.07req/s] [内存消耗：1,105.61kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '34b1494f-ac29-43d6-adab-4824c9b49282',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:15:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.082573s][吞吐率：12.11req/s] [内存消耗：1,069.86kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:16:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.073979s][吞吐率：13.52req/s] [内存消耗：1,105.61kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '772f27b6-092f-4544-b894-5f9b970909c3',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:16:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.078472s][吞吐率：12.74req/s] [内存消耗：1,105.61kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'ef8593e6-211d-462a-a39d-5e2bd7c441b4',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:16:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.067472s][吞吐率：14.82req/s] [内存消耗：1,105.61kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'e2f13ed4-35f5-4b6e-af52-f53712e9bc04',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:18:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.442731s][吞吐率：2.26req/s] [内存消耗：1,679.30kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140301s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.092586s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.015246s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:18:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.093757s][吞吐率：10.67req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'b1b59341-bd01-4958-bd52-3303e482fe6e',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:18:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.091567s][吞吐率：10.92req/s] [内存消耗：1,105.99kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=55c93ccd01dde681c59cd3a21850eac7',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:18:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.088665s][吞吐率：11.28req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'a5923ce6-928c-404e-a98a-ae4eb39fbe39',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:21:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.085272s][吞吐率：11.73req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '3e7ff0a0-879f-406d-b3f9-50569234e78c',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:22:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.268554s][吞吐率：3.72req/s] [内存消耗：1,679.35kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036580s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.106234s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002680s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:22:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.065068s][吞吐率：15.37req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '95aa2378-f7d0-4c1b-9498-9f3c2712bb97',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:22:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.079214s][吞吐率：12.62req/s] [内存消耗：1,105.99kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=5f73e6d7bd2090f2b1df3e7b9d96a70c',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:22:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.257369s][吞吐率：3.89req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'ee959950-2b3f-4977-b83e-a8737329f7e3',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:23:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.202967s][吞吐率：4.93req/s] [内存消耗：1,679.35kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015711s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.073997s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.011914s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:23:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.078083s][吞吐率：12.81req/s] [内存消耗：1,105.99kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=29c5f41f911016432f9435f603aaa071',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:23:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.083921s][吞吐率：11.92req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '0b53559e-84be-4f55-a1ff-4b3558d0fe50',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:24:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.260313s][吞吐率：3.84req/s] [内存消耗：1,679.57kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031135s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.095974s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.001931s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:25:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.071331s][吞吐率：14.02req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'ac73b282-7506-4322-b0a9-0a0cb056c9b0',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:26:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.070549s][吞吐率：14.17req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '3eb26a8a-ec44-4cdf-adca-4eb912556eb4',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:27:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.076898s][吞吐率：13.00req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'fc41377c-3074-4a3a-b86a-afc680993568',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:28:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.075764s][吞吐率：13.20req/s] [内存消耗：1,106.21kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=3e2ea954452324aa4180dfb0a68080d0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:28:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.197672s][吞吐率：5.06req/s] [内存消耗：1,679.57kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035619s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.058392s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.001979s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:28:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.080943s][吞吐率：12.35req/s] [内存消耗：1,105.66kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'c8fab483-f3f2-409c-9ec6-247785910609',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:29:30+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.075189s][吞吐率：13.30req/s] [内存消耗：1,106.37kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=998568ab27cbc292cf5ded5ce92d7604',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:30:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.263906s][吞吐率：3.79req/s] [内存消耗：1,679.73kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055777s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.066973s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.022380s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:30:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.094416s][吞吐率：10.59req/s] [内存消耗：1,106.42kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=259ac1530f45881f96d79029f63a4fdb',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:31:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.066138s][吞吐率：15.12req/s] [内存消耗：1,105.66kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '76070bfc-9dab-4a25-9c63-03430183f066',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:32:14+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.221916s][吞吐率：4.51req/s] [内存消耗：1,679.57kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033206s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.084028s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002273s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:32:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.074608s][吞吐率：13.40req/s] [内存消耗：1,105.66kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'bf2b3884-8049-4e09-ac3a-7a8514a68776',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:32:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.088538s][吞吐率：11.29req/s] [内存消耗：1,105.66kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '2a816c7e-bad1-41fa-9e45-adaec2259ed2',
+  'cache-control' => 'no-cache',
+  'token' => '2a4d1d1d544d9ae98806a724aeec2ebf',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:32:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.103353s][吞吐率：9.68req/s] [内存消耗：1,105.66kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'ef1ea407-c1e5-494a-bd92-f67742d903e7',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:33:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.066313s][吞吐率：15.08req/s] [内存消耗：1,105.66kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '472b06f3-4852-4b6f-a9a3-5ea9b34cf3d4',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:39:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.082990s][吞吐率：12.05req/s] [内存消耗：1,105.99kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:39:56+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.115405s][吞吐率：8.67req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '4f9a1e3c-6b46-437c-8d13-44eb25bc4cac',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:41:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.275742s][吞吐率：3.63req/s] [内存消耗：1,679.51kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064241s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.076432s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.020043s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:41:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.084684s][吞吐率：11.81req/s] [内存消耗：1,105.59kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '9df0ff25-202d-4fa6-a595-6a607cd238b2',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:41:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.101387s][吞吐率：9.86req/s] [内存消耗：1,106.15kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=52a710012c29899e1ac5e30d95d9ed3b',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:41:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.106659s][吞吐率：9.38req/s] [内存消耗：1,105.59kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '1ee43b90-7d74-4099-bc47-217f4aa272bb',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:43:46+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.229698s][吞吐率：4.35req/s] [内存消耗：1,679.23kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036761s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.042888s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.016504s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:43:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.073547s][吞吐率：13.60req/s] [内存消耗：1,105.31kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'b9ec4b1a-9c4b-4bb8-b432-9168b6f66ca4',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:43:56+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.220664s][吞吐率：4.53req/s] [内存消耗：1,202.30kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=c29be3abf9ac0303fc952b500ca7310d',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: _SESSION[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:390]
+---------------------------------------------------------------
+[ 2018-06-14T16:49:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.119506s][吞吐率：8.37req/s] [内存消耗：1,105.93kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=c29be3abf9ac0303fc952b500ca7310d',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:51:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.284143s][吞吐率：3.52req/s] [内存消耗：1,679.35kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068957s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.040065s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.026571s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:51:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.072887s][吞吐率：13.72req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '10494954-affa-4cd7-8db1-9bd7f8d467c4',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:56:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.107275s][吞吐率：9.32req/s] [内存消耗：1,106.24kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=73c3fd87cab7b836cb3d5682fecec863',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:57:29+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.333548s][吞吐率：3.00req/s] [内存消耗：1,679.60kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.103494s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.060483s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.013306s ]
+---------------------------------------------------------------
+[ 2018-06-14T16:57:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.074362s][吞吐率：13.45req/s] [内存消耗：1,105.69kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'fca0fbf4-acd9-4448-a56e-1af2d2a59cfc',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:58:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.076887s][吞吐率：13.01req/s] [内存消耗：1,106.24kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=8bc88210940113f8d647f7bd2231f9ec',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:58:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.094243s][吞吐率：10.61req/s] [内存消耗：1,105.69kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'dc1d4ed1-8f47-4265-bb79-b841a359e826',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T16:59:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.095406s][吞吐率：10.48req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '47fce5c6-f370-4e71-b9e8-a39fd787eb1d',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:00:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.081031s][吞吐率：12.34req/s] [内存消耗：1,105.44kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=htc3jtjofrb71skcdi7btcsq52',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '2013bc1e-0ac7-4d71-a2b4-cb1e42ff3dd4',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:00:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.179230s][吞吐率：5.58req/s] [内存消耗：1,104.54kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '69e4a315-ce1f-4818-aad3-9322953f59c3',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:00:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.113933s][吞吐率：8.78req/s] [内存消耗：1,104.76kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jddac4d1togvpljq9earcbja32',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '4d0c960f-2897-46c7-ba81-85aa80234db2',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:00:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.186794s][吞吐率：5.35req/s] [内存消耗：1,679.35kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020522s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.049138s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.006677s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:01:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.080687s][吞吐率：12.39req/s] [内存消耗：1,104.76kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jddac4d1togvpljq9earcbja32',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '589afca1-2baa-4253-a269-d9acc9b996ce',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:01:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.069930s][吞吐率：14.30req/s] [内存消耗：1,104.76kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jddac4d1togvpljq9earcbja32',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '33e26209-86e5-402e-90d0-60c24076efbe',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:01:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.095487s][吞吐率：10.47req/s] [内存消耗：1,104.76kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jddac4d1togvpljq9earcbja32',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '37035f91-6a81-42ae-8b80-7917800048fe',
+  'cache-control' => 'no-cache',
+  'token' => '6dfdec1cdecde337f15cdc6cf06f89b9',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:01:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.088385s][吞吐率：11.31req/s] [内存消耗：1,104.66kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jddac4d1togvpljq9earcbja32',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'd1be73f4-1945-4651-920c-f95354ecd821',
+  'cache-control' => 'no-cache',
+  'token' => '12',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:02:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.083852s][吞吐率：11.93req/s] [内存消耗：1,106.09kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:02:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.126256s][吞吐率：7.92req/s] [内存消耗：1,105.67kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:02:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.097984s][吞吐率：10.21req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:03:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.092379s][吞吐率：10.82req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:03:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.107304s][吞吐率：9.32req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:04:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.111915s][吞吐率：8.94req/s] [内存消耗：1,105.64kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:04:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.085646s][吞吐率：11.68req/s] [内存消耗：1,104.63kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jddac4d1togvpljq9earcbja32',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'cb70c617-4779-4b6d-bb1e-c1f552986820',
+  'cache-control' => 'no-cache',
+  'token' => '12',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:05:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.082105s][吞吐率：12.18req/s] [内存消耗：1,104.73kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jddac4d1togvpljq9earcbja32',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '3ae970ad-6fe9-400b-8075-9d7407c199d9',
+  'cache-control' => 'no-cache',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:05:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.120532s][吞吐率：8.30req/s] [内存消耗：1,106.06kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:06:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.101068s][吞吐率：9.89req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:08:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.128812s][吞吐率：7.76req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:14:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.126335s][吞吐率：7.92req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:16:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.280474s][吞吐率：3.57req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:16:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.214043s][吞吐率：4.67req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:17:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.088933s][吞吐率：11.24req/s] [内存消耗：1,105.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:20:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.100749s][吞吐率：9.93req/s] [内存消耗：1,104.55kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=jddac4d1togvpljq9earcbja32',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '34a1ecaa-fbbb-486c-842d-d1311473f8a5',
+  'cache-control' => 'no-cache',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:21:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.226727s][吞吐率：4.41req/s] [内存消耗：1,680.07kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045689s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.040156s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.004897s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:23:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.319020s][吞吐率：3.13req/s] [内存消耗：1,680.10kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028482s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.062759s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002865s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:26:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.291396s][吞吐率：3.43req/s] [内存消耗：1,680.26kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054519s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.064329s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002377s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:31:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.301541s][吞吐率：3.32req/s] [内存消耗：1,681.89kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072344s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.038220s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002523s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.437059s][吞吐率：2.29req/s] [内存消耗：1,682.30kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026330s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.029291s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.003161s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:33:51+08:00 ] 127.0.0.1 127.0.0.1 POST /api/updateFace/
+[ info ] www.vuecms.com/api/updateFace/ [运行时间：0.117413s][吞吐率：8.52req/s] [内存消耗：884.27kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'updateFace',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '1365806',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryv0cm7fSLzTDGFezS',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'undefined',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:34:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.555138s][吞吐率：1.80req/s] [内存消耗：1,682.30kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037426s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.028336s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002142s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:34:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/updateFace/
+[ info ] www.vuecms.com/api/updateFace/ [运行时间：0.202556s][吞吐率：4.94req/s] [内存消耗：1,144.58kb] [文件加载：31]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'updateFace',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '1365806',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1BK0GDcQBYeB39ZK',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'undefined',
+)
+[ info ] [ RUN ] app\api\controller\Api->updateFace[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:37:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.206894s][吞吐率：4.83req/s] [内存消耗：1,683.64kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010280s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.043972s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002344s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:37:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/updateFace/
+[ info ] www.vuecms.com/api/updateFace/ [运行时间：1.043305s][吞吐率：0.96req/s] [内存消耗：1,682.40kb] [文件加载：38]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'updateFace',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '1365803',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCAXHw61QHlUqILrP',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->updateFace[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032330s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.032486s ]
+[ sql ] [ SQL ] UPDATE `think_user`  SET `face`='http://www.vuecms.com/upload/user/20180614\\00307c0d517cceb40baaaa719ecd6c71.jpg'  WHERE  `name` = 'vuecms' [ RunTime:0.690656s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:38:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.313978s][吞吐率：3.18req/s] [内存消耗：1,683.88kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=上传成功',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052549s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.061189s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002452s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:39:04+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/user/20180614/00307c0d517cceb40baaaa719ecd6c71.jpg
+[ info ] www.vuecms.com/upload/user/20180614/00307c0d517cceb40baaaa719ecd6c71.jpg [运行时间：0.516682s][吞吐率：1.94req/s] [内存消耗：988.10kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'user',
+    2 => '20180614',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8081/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:39:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.520730s][吞吐率：1.92req/s] [内存消耗：1,683.94kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=http://www.vuecms.com/upload/user/20180614\\00307c0d517cceb40baaaa719ecd6c71.jpg',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.087082s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.043085s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.011221s ]
+---------------------------------------------------------------
+[ 2018-06-14T17:40:14+08:00 ] 127.0.0.1 127.0.0.1 GET /upload/user/20180614/00307c0d517cceb40baaaa719ecd6c71.jpg
+[ info ] www.vuecms.com/upload/user/20180614/00307c0d517cceb40baaaa719ecd6c71.jpg [运行时间：0.193832s][吞吐率：5.16req/s] [内存消耗：988.23kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'user',
+    2 => '20180614',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T17:41:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.522190s][吞吐率：1.92req/s] [内存消耗：1,683.95kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=http://www.vuecms.com/uploads/user/20180614\\00307c0d517cceb40baaaa719ecd6c71.jpg',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031345s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.049949s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002181s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:23:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.203655s][吞吐率：4.91req/s] [内存消耗：1,684.23kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'ba980771e6c54cdb14d5c424bdcf1a89',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=http://www.vuecms.com/uploads/user/20180614\\00307c0d517cceb40baaaa719ecd6c71.jpg',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045100s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.030312s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002022s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:23:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.109743s][吞吐率：9.11req/s] [内存消耗：1,110.31kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=ba980771e6c54cdb14d5c424bdcf1a89; face=http://www.vuecms.com/uploads/user/20180614\\00307c0d517cceb40baaaa719ecd6c71.jpg',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:25:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.vuecms.com/admin [运行时间：0.276946s][吞吐率：3.61req/s] [内存消耗：1,170.52kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:25:10+08:00 ] 127.0.0.1 127.0.0.1 GET /user/login.html
+[ info ] www.vuecms.com/user/login.html [运行时间：0.166489s][吞吐率：6.01req/s] [内存消耗：1,226.57kb] [文件加载：38]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=oc0godtlar8i756le5sqoi31d4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\user\login.html [ array (
+  0 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:25:25+08:00 ] 127.0.0.1 127.0.0.1 POST /user/login.html
+[ info ] www.vuecms.com/user/login.html [运行时间：0.277427s][吞吐率：3.60req/s] [内存消耗：1,960.23kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=oc0godtlar8i756le5sqoi31d4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '50',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin123',
+  'remember' => 'remember',
+)
+[ info ] [ RUN ] app\index\controller\User->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\user\login.html [ array (
+  0 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037170s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.031405s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.002173s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:25:36+08:00 ] 127.0.0.1 127.0.0.1 POST /user/login.html
+[ info ] www.vuecms.com/user/login.html [运行时间：0.200750s][吞吐率：4.98req/s] [内存消耗：1,960.23kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=oc0godtlar8i756le5sqoi31d4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '50',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin123',
+  'remember' => 'remember',
+)
+[ info ] [ RUN ] app\index\controller\User->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\user\login.html [ array (
+  0 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007202s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.012661s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.013873s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:25:47+08:00 ] 127.0.0.1 127.0.0.1 POST /user/login.html
+[ info ] www.vuecms.com/user/login.html [运行时间：0.237388s][吞吐率：4.21req/s] [内存消耗：1,919.14kb] [文件加载：43]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=oc0godtlar8i756le5sqoi31d4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '55',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'csj1063944784',
+  'remember' => 'remember',
+)
+[ info ] [ RUN ] app\index\controller\User->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030308s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.074123s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.002163s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:25:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.179431s][吞吐率：5.57req/s] [内存消耗：1,229.94kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=oc0godtlar8i756le5sqoi31d4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:26:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.116443s][吞吐率：8.59req/s] [内存消耗：1,229.91kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:28:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.181246s][吞吐率：5.52req/s] [内存消耗：1,359.55kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:29:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.121356s][吞吐率：8.24req/s] [内存消耗：1,360.05kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:37:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin.html
+[ info ] www.vuecms.com/admin.html [运行时间：0.159714s][吞吐率：6.26req/s] [内存消耗：1,361.93kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/user/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:37:11+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index.html
+[ info ] www.vuecms.com/user/index.html [运行时间：0.632670s][吞吐率：1.58req/s] [内存消耗：2,005.98kb] [文件加载：49]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\user\index.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045372s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.031091s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1 [ RunTime:0.001815s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` LIMIT 0,20 [ RunTime:0.002063s ]
+[ error ] [0]语法解析错误: syntax error, unexpected '.'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\runtime\temp\e047421b22fa7c87f8c537756386614c.php:117]
+---------------------------------------------------------------
+[ 2018-06-14T20:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index.html
+[ info ] www.vuecms.com/user/index.html [运行时间：0.397967s][吞吐率：2.51req/s] [内存消耗：2,065.92kb] [文件加载：52]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\user\index.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023631s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.024166s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1 [ RunTime:0.006728s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` LIMIT 0,20 [ RunTime:0.002583s ]
+[ error ] [8]未定义变量: new[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\runtime\temp\e047421b22fa7c87f8c537756386614c.php:118]
+---------------------------------------------------------------
+[ 2018-06-14T20:37:58+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index.html
+[ info ] www.vuecms.com/user/index.html [运行时间：0.454131s][吞吐率：2.20req/s] [内存消耗：2,065.90kb] [文件加载：52]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\user\index.html [ array (
+  0 => 'users',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041258s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.052080s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1 [ RunTime:0.001727s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` LIMIT 0,20 [ RunTime:0.001815s ]
+[ error ] [8]未定义变量: current_page[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\runtime\temp\e047421b22fa7c87f8c537756386614c.php:124]
+---------------------------------------------------------------
+[ 2018-06-14T20:38:44+08:00 ] 127.0.0.1 127.0.0.1 GET /user/index.html
+[ info ] www.vuecms.com/user/index.html [运行时间：0.325950s][吞吐率：3.07req/s] [内存消耗：1,839.78kb] [文件加载：46]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\user\index.html [ array (
+  0 => 'pages',
+  1 => 'current_page',
+  2 => 'users',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029884s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.031996s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1 [ RunTime:0.006398s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` LIMIT 0,20 [ RunTime:0.002353s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:39:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.384119s][吞吐率：2.60req/s] [内存消耗：1,642.54kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032757s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.157890s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.016412s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.030420s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:41:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.299055s][吞吐率：3.34req/s] [内存消耗：1,685.78kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031890s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.023044s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' OR `phone` = 'vuecms'  OR `email` = 'vuecms' LIMIT 1 [ RunTime:0.006261s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:41:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.204337s][吞吐率：4.89req/s] [内存消耗：1,685.53kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => '0b87e834abb02bbdac63b02a0c993362',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=0b87e834abb02bbdac63b02a0c993362; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010857s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.004832s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' LIMIT 1 [ RunTime:0.002950s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:44:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.116995s][吞吐率：8.55req/s] [内存消耗：1,110.99kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=0b87e834abb02bbdac63b02a0c993362; face=/static/img/default.png',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:44:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getUserInfo/vuecms
+[ info ] www.vuecms.com/api/getUserInfo/vuecms [运行时间：0.128556s][吞吐率：7.78req/s] [内存消耗：1,110.89kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getUserInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'token' => 'false',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->getUserInfo[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T20:45:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.235689s][吞吐率：4.24req/s] [内存消耗：1,685.78kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029547s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.032951s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' OR `phone` = 'vuecms'  OR `email` = 'vuecms' LIMIT 1 [ RunTime:0.002793s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:45:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/login/
+[ info ] www.vuecms.com/api/login/ [运行时间：0.198279s][吞吐率：5.04req/s] [内存消耗：1,685.95kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'login',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '33',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=caceb7f237bf9b7692b9dc1c2d9a45b2',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+  'password' => '12345678',
+)
+[ info ] [ RUN ] app\api\controller\Api->login[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020750s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.039403s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `name` = 'vuecms' OR `phone` = 'vuecms'  OR `email` = 'vuecms' LIMIT 1 [ RunTime:0.002338s ]
+---------------------------------------------------------------
+[ 2018-06-14T20:47:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/logout/vuecms
+[ info ] www.vuecms.com/api/logout/vuecms [运行时间：0.106370s][吞吐率：9.40req/s] [内存消耗：1,111.65kb] [文件加载：30]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352; PHPSESSID=fe1q9meu3km8p4sipkgjr3sfn3; username=vuecms; token=d8e12d61b82ee23d88af4da36f2d1366; face=http://www.vuecms.com/uploads/user/20180614\\00307c0d517cceb40baaaa719ecd6c71.jpg',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'vuecms',
+)
+[ info ] [ RUN ] app\api\controller\Api->logout[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-14T21:22:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.vuecms.com/admin [运行时间：0.118672s][吞吐率：8.43req/s] [内存消耗：1,230.95kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=oc0godtlar8i756le5sqoi31d4; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

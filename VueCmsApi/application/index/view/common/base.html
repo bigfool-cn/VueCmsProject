@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{block name="title"}{/block}--VueCmsApi后台系统</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="/static/css/index/main.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="/static/font-awesome-4.7.0/css/font-awesome.min.css">
+    {block name="css"}{/block}
+  </head>
+  <body class="app sidebar-mini rtl">
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="index.html">API后台</a>
+      <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+      <!-- Navbar Right Menu-->
+      <ul class="app-nav">
+        <li class="app-search">
+          <input class="app-search__input" type="search" placeholder="Search">
+          <button class="app-search__button"><i class="fa fa-search"></i></button>
+        </li>
+        <!--Notification Menu-->
+        <!-- User Menu-->
+        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
+          <ul class="dropdown-menu settings-menu dropdown-menu-right">
+            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
+            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+            <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="/uploads/user.jpg" alt="User Image" width="50px" height="50px">
+        <div>
+          <p class="app-sidebar__user-name">{$Think.session.username}</p>
+          <p class="app-sidebar__user-designation">超级管理员</p>
+        </div>
+      </div>
+      <ul class="app-menu">
+        <li><a class="app-menu__item" href="{:url('index/index/index')}" id="m-1"><i class="app-menu__icon fa fa-bank"></i><span class="app-menu__label">首页</span></a></li>
+        <li class="treeview" id="m-2"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-calendar"></i><span class="app-menu__label">轮播图管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="{:url('index/Swipe/index')}" id="m-2-1"><i class="icon fa fa-circle-o"></i> 轮播图列表</a></li>
+            <li><a class="treeview-item" href="{:url('index/Swipe/add')}" rel="noopener" id="m-2-2"><i class="icon fa fa-circle-o"></i> 添加轮播图</a></li>
+          </ul>
+        </li>
+        <li class="treeview" id="m-3"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-bookmark"></i><span class="app-menu__label">新闻管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="{:url('index/News/index')}" id="m-3-1"><i class="icon fa fa-circle-o"></i> 新闻列表</a></li>
+            <li><a class="treeview-item" href="{:url('index/News/add')}" rel="noopener" id="m-3-2"><i class="icon fa fa-circle-o"></i> 添加新闻</a></li>
+          </ul>
+        </li>
+        <li class="treeview" id="m-4"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-map"></i><span class="app-menu__label">图文管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="{:url('index/Image/index')}" id="m-4-1"><i class="icon fa fa-circle-o"></i> 图文列表</a></li>
+            <li><a class="treeview-item" href="{:url('index/Image/add')}" rel="noopener" id="m-4-2"><i class="icon fa fa-circle-o"></i> 添加图文</a></li>
+          </ul>
+        </li>
+        <li class="treeview" id="m-5"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-map"></i><span class="app-menu__label">评论管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="{:url('index/Comment/index')}" id="m-5-1"><i class="icon fa fa-circle-o"></i> 评论列表</a></li>
+          </ul>
+        </li>
+        <li class="treeview" id="m-6"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-map"></i><span class="app-menu__label">商品管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+             <li><a class="treeview-item" href="{:url('index/Goods/index')}" id="m-6-1"><i class="icon fa fa-circle-o"></i> 商品列表</a></li>
+             <li><a class="treeview-item" href="{:url('index/Goods/add')}" id="m-6-2"><i class="icon fa fa-circle-o"></i> 添加商品</a></li>
+             <li><a class="treeview-item" href="{:url('index/GoodImages/index')}" id="m-6-3"><i class="icon fa fa-circle-o"></i> 轮播图列表</a></li>
+          </ul>
+        </li>
+        <li class="treeview" id="m-7"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-map"></i><span class="app-menu__label">会员管理</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+          <ul class="treeview-menu">
+            <li><a class="treeview-item" href="{:url('index/User/index')}" id="m-7-1"><i class="icon fa fa-circle-o"></i> 会员列表</a></li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+    <main class="app-content">
+      <div class="app-title">
+        <div>
+          {block name="page_title"}
+          {/block}
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+          <li class="breadcrumb-item"><a href="{:url('index/index/admin')}"><i class="fa fa-home fa-lg"></i></a></li>
+          {block name="page_path"}
+          {/block}
+        </ul>
+      </div>
+      {block name="content"}{/block}
+    </main>
+  </body>
+<script src="/static/js/index/jquery.min.js"></script>
+<script src="/static/js/index/popper.min.js"></script>
+<script src="/static/js/index/bootstrap.min.js"></script>
+<script src="/static/js/index/main.js"></script>
+{block name="js"}{/block}
+</html>

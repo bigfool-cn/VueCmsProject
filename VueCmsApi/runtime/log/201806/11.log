@@ -1,0 +1,1455 @@
+---------------------------------------------------------------
+[ 2018-06-11T21:03:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.444721s][吞吐率：2.25req/s] [内存消耗：1,180.68kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:05:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.201685s][吞吐率：4.96req/s] [内存消耗：1,181.67kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:05:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.100007s][吞吐率：10.00req/s] [内存消耗：1,181.67kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:14:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.169576s][吞吐率：5.90req/s] [内存消耗：1,182.52kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:17:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.096094s][吞吐率：10.41req/s] [内存消耗：1,182.52kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.138692s][吞吐率：7.21req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.087499s][吞吐率：11.43req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.094461s][吞吐率：10.59req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.118690s][吞吐率：8.43req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.108018s][吞吐率：9.26req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.098024s][吞吐率：10.20req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.118205s][吞吐率：8.46req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.092056s][吞吐率：10.86req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.090578s][吞吐率：11.04req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.094442s][吞吐率：10.59req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T21:33:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/time
+[ info ] www.vuecms.com/api/time [运行时间：0.095482s][吞吐率：10.47req/s] [内存消耗：1,185.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'time',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->time[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:41:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode
+[ info ] www.vuecms.com/api/getCode [运行时间：0.217315s][吞吐率：4.60req/s] [内存消耗：871.48kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getCode',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:43:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode
+[ info ] www.vuecms.com/api/getCode [运行时间：0.125746s][吞吐率：7.95req/s] [内存消耗：871.48kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getCode',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:44:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.074993s][吞吐率：13.33req/s] [内存消耗：871.48kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'getCode',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:45:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.209309s][吞吐率：4.78req/s] [内存消耗：1,167.09kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]preg_match(): Unknown modifier '|'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:245]
+---------------------------------------------------------------
+[ 2018-06-11T22:47:03+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.108580s][吞吐率：9.21req/s] [内存消耗：1,167.09kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '11133333333',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]preg_match(): Unknown modifier '|'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:245]
+---------------------------------------------------------------
+[ 2018-06-11T22:47:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.092050s][吞吐率：10.86req/s] [内存消耗：969.10kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '11133333333',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:48:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.087134s][吞吐率：11.48req/s] [内存消耗：969.10kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '11133333333',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:49:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.087208s][吞吐率：11.47req/s] [内存消耗：969.10kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '11133333333',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:49:55+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.082059s][吞吐率：12.19req/s] [内存消耗：969.10kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '11133333333',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:51:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.096933s][吞吐率：10.32req/s] [内存消耗：969.10kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '11133333333',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:51:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.396563s][吞吐率：2.52req/s] [内存消耗：1,569.16kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.147196s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_code` [ RunTime:0.042472s ]
+[ sql ] [ SQL ] INSERT INTO `think_code` (`to` , `code`) VALUES ('13126051483' , '7534') [ RunTime:0.087937s ]
+---------------------------------------------------------------
+[ 2018-06-11T22:54:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：1.855765s][吞吐率：0.54req/s] [内存消耗：969.94kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T22:54:55+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.113229s][吞吐率：8.83req/s] [内存消耗：969.91kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:08:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：1.424897s][吞吐率：0.70req/s] [内存消耗：969.15kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '920cfdf4-5965-43d2-852d-cfab25c73025',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------276751134380377091397228',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:08:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.121340s][吞吐率：8.24req/s] [内存消耗：969.20kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '6476480d-f814-495b-b971-acb12a60d31e',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------775139457611913302274929',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:09:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.102926s][吞吐率：9.72req/s] [内存消耗：968.83kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'eeff4f25-d997-43b1-bef1-17d70434cc9c',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------290171459740370030366806',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:16:48+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：1.514307s][吞吐率：0.66req/s] [内存消耗：968.89kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'e0d90f55-31c5-4d79-b1a8-ad21e17b39ef',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------815695174933777801515917',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:17:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.116450s][吞吐率：8.59req/s] [内存消耗：968.58kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'a44ec04a-4d0f-4b29-ad89-38a7965893a0',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------161097161031523656687007',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:18:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.116624s][吞吐率：8.57req/s] [内存消耗：968.58kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '9a3fd108-04c9-4d29-b642-e1929915449f',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------108601705153982561713863',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:19:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.323517s][吞吐率：3.09req/s] [内存消耗：968.58kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '621697fb-f49b-41e1-83ae-4d7fdb242a21',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------237489399669347989681821',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:21:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.108214s][吞吐率：9.24req/s] [内存消耗：968.58kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '5e2e5be4-6992-4211-a32d-4b8f25ccbf30',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------742345660938931179097048',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:22:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.236247s][吞吐率：4.23req/s] [内存消耗：968.58kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'e5b5eb38-2b8d-4e6d-a41f-1006262fc602',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------956467982550364190909269',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:23:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.114515s][吞吐率：8.73req/s] [内存消耗：968.89kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '7c6f0518-7c8d-4b60-b772-53687111e724',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------357016815221291324559412',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:25:43+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：1.439995s][吞吐率：0.69req/s] [内存消耗：969.39kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '5a9b54fc-98a0-4467-a6cd-2fd7b26cfb09',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------433078139210569458306230',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:26:24+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.126272s][吞吐率：7.92req/s] [内存消耗：969.39kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'e3aa0793-1a45-49e5-be48-691c93c2b37a',
+  'cache-control' => 'no-cache',
+  'content-type' => 'multipart/form-data; boundary=--------------------------677653273780792065949637',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:27:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.122428s][吞吐率：8.17req/s] [内存消耗：969.39kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'content-type' => 'multipart/form-data; boundary=--------------------------663819256932742565082346',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '5aeb62a8-6e58-49d2-af88-5f0b086f102c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-11T23:27:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.396552s][吞吐率：2.52req/s] [内存消耗：1,209.92kb] [文件加载：40]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'content-type' => 'multipart/form-data; boundary=--------------------------889102776850999286907896',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '0abd6c04-9147-4781-99f8-7dfb6579679e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'respCode'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:251]
+---------------------------------------------------------------
+[ 2018-06-11T23:29:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.505800s][吞吐率：1.98req/s] [内存消耗：1,209.94kb] [文件加载：40]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'content-type' => 'multipart/form-data; boundary=--------------------------231734844248432311983671',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '7f3662ad-8a00-4603-acac-9b005a079b1a',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'respCode'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:251]
+---------------------------------------------------------------
+[ 2018-06-11T23:30:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.291736s][吞吐率：3.43req/s] [内存消耗：1,168.03kb] [文件加载：37]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'content-length' => '14',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'respCode'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:251]
+---------------------------------------------------------------
+[ 2018-06-11T23:31:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.374232s][吞吐率：2.67req/s] [内存消耗：1,209.44kb] [文件加载：40]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'content-type' => 'multipart/form-data; boundary=--------------------------458192432732039196289811',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'daf16b94-253e-48e8-a914-f496c50a3e1e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'respCode'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:252]
+---------------------------------------------------------------
+[ 2018-06-11T23:32:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：0.261964s][吞吐率：3.82req/s] [内存消耗：1,209.31kb] [文件加载：40]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'content-type' => 'multipart/form-data; boundary=--------------------------732986569226492475160182',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'c631ef3c-8562-4067-8d4c-52e28abd899b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'respCode'[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:252]
+---------------------------------------------------------------
+[ 2018-06-11T23:33:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/getCode/
+[ info ] www.vuecms.com/api/getCode/ [运行时间：1.836902s][吞吐率：0.54req/s] [内存消耗：969.27kb] [文件加载：29]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getCode',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '168',
+  'content-type' => 'multipart/form-data; boundary=--------------------------848119666959975812667001',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.vuecms.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'fedbe7a2-5a4c-4a75-8d53-fc0629d9c537',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'to' => '13126051483',
+)
+[ info ] [ RUN ] app\api\controller\Api->getCode[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ LOG ] INIT File

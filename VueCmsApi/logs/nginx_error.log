@@ -1,0 +1,10 @@
+2018/06/24 09:54:50 [error] 8137#8137: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught think\exception\ErrorException: error_log(/home/ubuntu/VueCmsApi/runtime/log/201806/24.log): failed to open stream: Permission denied in /home/ubuntu/VueCmsApi/thinkphp/library/think/log/driver/File.php:116
+Stack trace:
+#0 [internal function]: think\Error::appError(2, 'error_log(/home...', '/home/ubuntu/Vu...', 116, Array)
+#1 /home/ubuntu/VueCmsApi/thinkphp/library/think/log/driver/File.php(116): error_log('---------------...', 3, '/home/ubuntu/Vu...')
+#2 /home/ubuntu/VueCmsApi/thinkphp/library/think/log/driver/File.php(70): think\log\driver\File->write('---------------...', '/home/ubuntu/Vu...')
+#3 /home/ubuntu/VueCmsApi/thinkphp/library/think/Log.php(157): think\log\driver\File->save(Array)
+#4 /home/ubuntu/VueCmsApi/thinkphp/library/think/Error.php(84): think\Log::save()
+#5 [internal function]: think\Error::appShutdown()
+#6 {main}
+  thrown in /home/ubuntu/VueCmsApi/thinkphp/library/think/log/driver/File.php on line 116" while reading response header from upstream, client: 14.159.88.247, server: vuecms.bigfool.cn, request: "GET /api/getswipe HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "vuecms.bigfool.cn"

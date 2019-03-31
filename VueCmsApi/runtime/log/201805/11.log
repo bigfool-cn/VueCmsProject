@@ -1,0 +1,2752 @@
+---------------------------------------------------------------
+[ 2018-05-11T20:06:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.492608s][吞吐率：2.03req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.312838s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.043502s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001785s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:10:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.421731s][吞吐率：2.37req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013341s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.008919s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002021s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:12:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.195867s][吞吐率：5.11req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013855s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.009258s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002078s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:13:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.426890s][吞吐率：2.34req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.245940s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.007627s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001885s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:14:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.484654s][吞吐率：2.06req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016167s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.008396s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001935s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:15:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.196437s][吞吐率：5.09req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014524s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.006996s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002046s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:15:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.183687s][吞吐率：5.44req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010443s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.007116s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001970s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:17:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.297704s][吞吐率：3.36req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025379s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.007368s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001761s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:17:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.191996s][吞吐率：5.21req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014094s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.007913s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002099s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:19:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.220064s][吞吐率：4.54req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016409s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.008697s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002050s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:19:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.375864s][吞吐率：2.66req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046952s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.030871s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001942s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:20:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.231798s][吞吐率：4.31req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017548s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.052486s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002091s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:21:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.414825s][吞吐率：2.41req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056066s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.030758s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.002513s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:50:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：1.866018s][吞吐率：0.54req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.559335s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.172728s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.004161s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:56:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.397893s][吞吐率：2.51req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030353s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.076356s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.021628s ]
+---------------------------------------------------------------
+[ 2018-05-11T20:57:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.269860s][吞吐率：3.71req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031242s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.061239s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001850s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:24:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.858845s][吞吐率：1.16req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.486963s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.076386s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001894s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:24:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.276374s][吞吐率：3.62req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033019s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.053424s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.028181s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:26:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.291844s][吞吐率：3.43req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032997s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.032410s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.016738s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:31:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.678960s][吞吐率：1.47req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.419318s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.049410s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.009462s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:31:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.265016s][吞吐率：3.77req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023837s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.074964s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.013913s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:32:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.221932s][吞吐率：4.51req/s] [内存消耗：1,562.48kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vuecms.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Pycharm-f3d843f3=9df3831e-8719-4ad7-84fb-2dfc2226a352',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019275s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.056114s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.007356s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:47:29+08:00 ] 127.0.0.1 127.0.0.1 GET /swipe/index
+[ info ] www.vuecms.com/swipe/index [运行时间：0.172594s][吞吐率：5.79req/s] [内存消耗：878.26kb] [文件加载：33]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 0[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\library\think\Route.php:215]
+---------------------------------------------------------------
+[ 2018-05-11T21:47:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.vuecms.com/admin [运行时间：0.104051s][吞吐率：9.61req/s] [内存消耗：878.25kb] [文件加载：33]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 0[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\library\think\Route.php:215]
+---------------------------------------------------------------
+[ 2018-05-11T21:48:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.vuecms.com/admin [运行时间：0.153893s][吞吐率：6.50req/s] [内存消耗：1,331.52kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T21:48:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/list.html
+[ info ] www.vuecms.com/index/news/list.html [运行时间：0.118087s][吞吐率：8.47req/s] [内存消耗：1,168.81kb] [文件加载：40]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T21:48:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.vuecms.com/admin [运行时间：0.142193s][吞吐率：7.03req/s] [内存消耗：1,330.75kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T21:48:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.vuecms.com/admin [运行时间：0.117113s][吞吐率：8.54req/s] [内存消耗：1,201.43kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\Index.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T21:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /news/index.html
+[ info ] www.vuecms.com/news/index.html [运行时间：0.373817s][吞吐率：2.68req/s] [内存消耗：1,944.09kb] [文件加载：49]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\index.html [ array (
+  0 => 'news',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.182246s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.034789s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.001898s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` LIMIT 0,20 [ RunTime:0.001820s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:55:14+08:00 ] 127.0.0.1 127.0.0.1 GET /news/index.html
+[ info ] www.vuecms.com/news/index.html [运行时间：0.393797s][吞吐率：2.54req/s] [内存消耗：1,806.93kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\index.html [ array (
+  0 => 'news',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.198037s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.033789s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.005924s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` LIMIT 0,20 [ RunTime:0.001842s ]
+---------------------------------------------------------------
+[ 2018-05-11T21:55:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.186046s][吞吐率：5.38req/s] [内存消耗：1,373.06kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/news/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: status[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\runtime\temp\6bb667400ba532c3c5d0c5adcf28236f.php:90]
+---------------------------------------------------------------
+[ 2018-05-11T21:55:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.133055s][吞吐率：7.52req/s] [内存消耗：1,351.80kb] [文件加载：41]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T21:58:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.364631s][吞吐率：2.74req/s] [内存消耗：1,723.68kb] [文件加载：48]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRbHYMjLQ3wMxwXB5',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67761',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '安徽黄山与世界多个著名旅游景区结好',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">记者14日从安徽黄山风景区获悉，瑞士少女峰近日更换展出一组黄山风光照，该照片为纪念黄山与少女峰结好而永久设立。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">据黄山风景区管委会相关负责人介绍，此次更换的黄山风光照片是从近年来国际、国内各类摄影大赛获奖作品中精选出来的，展示了黄山奇特卓绝的自然风光，有助于吸引越来越多的瑞士游客来黄山观光揽胜。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">黄山位于安徽省南部黄山市境内，是世界文化与自然双重遗产、世界地质公园，拥有奇松、怪石、云海、温泉等奇观，被誉为“天下第一奇山”；瑞士少女峰则是阿尔卑斯山脉的最高峰之一，被称为“欧洲之巅”，于2001年被联合国教科文组织列为世界自然遗产。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">2002年5月，中国黄山与瑞士少女峰结为“友好山”。16年来，双方不断拓宽合作空间，在自然资源与地区文化的保护、旅游推广和共同发展方面一直保持着密切合作。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">2017年9月，为进一步深化与国际友好公园的合作交流，黄山风景区组团赴瑞士少女峰，实地了解其旅游接待基础设施建设、应急救援等管理制度，并就互办风光摄影展等事宜进行了会谈。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">下一步，黄山风景区与瑞士少女峰景区将互借平台、互办影展，宣传和推介各自优势旅游资源，扩大双方境外客源市场。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">据了解，黄山风景区近年来持续扩大对外开放，加快旅游国际化步伐，先后与瑞士少女峰、美国约塞米蒂国家公园、希腊莱斯沃斯石化森林地质公园、新西兰凯库拉、加拿大班芙国家公园、柬埔寨吴哥窟等缔结友好景区或签订友好合作协议，建立互访机制，开展经验交流，共享信息资源，实现市场互动，共同提高黄山和境外友好景区的保护管理和旅游发展水平，有效扩大了黄山的国际知名度和影响力。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036144s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.025542s ]
+[ error ] [10501]SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'content' at row 1[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\library\think\db\Connection.php:451]
+---------------------------------------------------------------
+[ 2018-05-11T21:58:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.108184s][吞吐率：9.24req/s] [内存消耗：1,208.61kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T21:59:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.351738s][吞吐率：2.84req/s] [内存消耗：1,723.64kb] [文件加载：48]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryR9g3amgQAQhm4Jcu',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67761',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '安徽黄山与世界多个著名旅游景区结好',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">记者14日从安徽黄山风景区获悉，瑞士少女峰近日更换展出一组黄山风光照，该照片为纪念黄山与少女峰结好而永久设立。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">据黄山风景区管委会相关负责人介绍，此次更换的黄山风光照片是从近年来国际、国内各类摄影大赛获奖作品中精选出来的，展示了黄山奇特卓绝的自然风光，有助于吸引越来越多的瑞士游客来黄山观光揽胜。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">黄山位于安徽省南部黄山市境内，是世界文化与自然双重遗产、世界地质公园，拥有奇松、怪石、云海、温泉等奇观，被誉为“天下第一奇山”；瑞士少女峰则是阿尔卑斯山脉的最高峰之一，被称为“欧洲之巅”，于2001年被联合国教科文组织列为世界自然遗产。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">2002年5月，中国黄山与瑞士少女峰结为“友好山”。16年来，双方不断拓宽合作空间，在自然资源与地区文化的保护、旅游推广和共同发展方面一直保持着密切合作。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">2017年9月，为进一步深化与国际友好公园的合作交流，黄山风景区组团赴瑞士少女峰，实地了解其旅游接待基础设施建设、应急救援等管理制度，并就互办风光摄影展等事宜进行了会谈。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">下一步，黄山风景区与瑞士少女峰景区将互借平台、互办影展，宣传和推介各自优势旅游资源，扩大双方境外客源市场。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">据了解，黄山风景区近年来持续扩大对外开放，加快旅游国际化步伐，先后与瑞士少女峰、美国约塞米蒂国家公园、希腊莱斯沃斯石化森林地质公园、新西兰凯库拉、加拿大班芙国家公园、柬埔寨吴哥窟等缔结友好景区或签订友好合作协议，建立互访机制，开展经验交流，共享信息资源，实现市场互动，共同提高黄山和境外友好景区的保护管理和旅游发展水平，有效扩大了黄山的国际知名度和影响力。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053156s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.053337s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'add_time' doesn't have a default value[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\library\think\db\Connection.php:451]
+---------------------------------------------------------------
+[ 2018-05-11T22:02:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.120760s][吞吐率：8.28req/s] [内存消耗：1,208.61kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:03:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.522015s][吞吐率：1.92req/s] [内存消耗：1,716.88kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxZ8AN25WsrD7TmUS',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '67761',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '安徽黄山与世界多个著名旅游景区结好',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">记者14日从安徽黄山风景区获悉，瑞士少女峰近日更换展出一组黄山风光照，该照片为纪念黄山与少女峰结好而永久设立。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">据黄山风景区管委会相关负责人介绍，此次更换的黄山风光照片是从近年来国际、国内各类摄影大赛获奖作品中精选出来的，展示了黄山奇特卓绝的自然风光，有助于吸引越来越多的瑞士游客来黄山观光揽胜。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">黄山位于安徽省南部黄山市境内，是世界文化与自然双重遗产、世界地质公园，拥有奇松、怪石、云海、温泉等奇观，被誉为“天下第一奇山”；瑞士少女峰则是阿尔卑斯山脉的最高峰之一，被称为“欧洲之巅”，于2001年被联合国教科文组织列为世界自然遗产。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">2002年5月，中国黄山与瑞士少女峰结为“友好山”。16年来，双方不断拓宽合作空间，在自然资源与地区文化的保护、旅游推广和共同发展方面一直保持着密切合作。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">2017年9月，为进一步深化与国际友好公园的合作交流，黄山风景区组团赴瑞士少女峰，实地了解其旅游接待基础设施建设、应急救援等管理制度，并就互办风光摄影展等事宜进行了会谈。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">下一步，黄山风景区与瑞士少女峰景区将互借平台、互办影展，宣传和推介各自优势旅游资源，扩大双方境外客源市场。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">据了解，黄山风景区近年来持续扩大对外开放，加快旅游国际化步伐，先后与瑞士少女峰、美国约塞米蒂国家公园、希腊莱斯沃斯石化森林地质公园、新西兰凯库拉、加拿大班芙国家公园、柬埔寨吴哥窟等缔结友好景区或签订友好合作协议，建立互访机制，开展经验交流，共享信息资源，实现市场互动，共同提高黄山和境外友好景区的保护管理和旅游发展水平，有效扩大了黄山的国际知名度和影响力。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.219399s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.045020s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('安徽黄山与世界多个著名旅游景区结好' , 'http://www.vuecms.com/uploads/news/20180511\\bbf275c108543b73284e8ebd4c394258.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">记者14日从安徽黄山风景区获悉，瑞士少女峰近日更换展出一组黄山风光照，该照片为纪念黄山与少女峰结好而永久设立。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">据黄山风景区管委会相关负责人介绍，此次更换的黄山风光照片是从近年来国际、国内各类摄影大赛获奖作品中精选出来的，展示了黄山奇特卓绝的自然风光，有助于吸引越来越多的瑞士游客来黄山观光揽胜。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">黄山位于安徽省南部黄山市境内，是世界文化与自然双重遗产、世界地质公园，拥有奇松、怪石、云海、温泉等奇观，被誉为“天下第一奇山”；瑞士少女峰则是阿尔卑斯山脉的最高峰之一，被称为“欧洲之巅”，于2001年被联合国教科文组织列为世界自然遗产。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">2002年5月，中国黄山与瑞士少女峰结为“友好山”。16年来，双方不断拓宽合作空间，在自然资源与地区文化的保护、旅游推广和共同发展方面一直保持着密切合作。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">2017年9月，为进一步深化与国际友好公园的合作交流，黄山风景区组团赴瑞士少女峰，实地了解其旅游接待基础设施建设、应急救援等管理制度，并就互办风光摄影展等事宜进行了会谈。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">下一步，黄山风景区与瑞士少女峰景区将互借平台、互办影展，宣传和推介各自优势旅游资源，扩大双方境外客源市场。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">据了解，黄山风景区近年来持续扩大对外开放，加快旅游国际化步伐，先后与瑞士少女峰、美国约塞米蒂国家公园、希腊莱斯沃斯石化森林地质公园、新西兰凯库拉、加拿大班芙国家公园、柬埔寨吴哥窟等缔结友好景区或签订友好合作协议，建立互访机制，开展经验交流，共享信息资源，实现市场互动，共同提高黄山和境外友好景区的保护管理和旅游发展水平，有效扩大了黄山的国际知名度和影响力。</p><p><br/></p>') [ RunTime:0.020158s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:03:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.151137s][吞吐率：6.62req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:04:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.364745s][吞吐率：2.74req/s] [内存消耗：1,716.84kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUqsdR3iKlPf129Aw',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '47217',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '2018年武隆旅游大戏开场',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">说起武隆，你的第一印象是什么？</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">是有着“东方瑞士”之称的南国大草原，还是让人啧啧称其的世界最大的天生桥群呢？</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">是《满城尽带黄金甲》里那刀光剑影的天福官驿，还是炫酷超时空的《变形金刚》大战呢？</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">总是带给我们惊喜的武隆旅游，2018年，又一场大戏上演——武隆联合腾讯共同打造的交互微综艺《王牌大救星》，重磅登场。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;"><img src="/uploads/images/20180511/1526047468.jpg" title="1526047468.jpg" alt="147947421.jpg"/></p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">这场大戏，通过全景技术与原创视频内容的创意结合全新打造，那又会带给我们怎样的视觉盛宴，又会带来一个什么神奇的故事？</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">这场大戏，通过“拯救关晓彤”的主线贯穿始末，又会是谁来闯过层层障碍，演绎英雄救美？</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">据武隆景区相关负责人介绍，《王牌大救星》项目作为首档交互微综艺，通过全景技术与原创视频内容的创意结合全新打造，当红明星关晓彤受邀参与视频拍摄。项目以轻游戏多交互的模式，用“拯救关晓彤”为引线，并不断提示引导游客在720°无死角的全景视频中欣赏武隆的大美风光的同时，以角色扮演的方式，完成“拯救关晓彤”的一系列趣味任务。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">“《王牌大救星》通过挖掘武隆景区的资源特色与文化，融合视听艺术与浸入式科技，运用最新创意，一定会给予观众最深入人心的浸没式体验。”腾讯旅游相关负责人对此首创的项目非常有信心。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041832s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.041148s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('2018年武隆旅游大戏开场' , 'http://www.vuecms.com/uploads/news/20180511\\afec538d837af4981fb043c8621fe242.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">说起武隆，你的第一印象是什么？</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">是有着“东方瑞士”之称的南国大草原，还是让人啧啧称其的世界最大的天生桥群呢？</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">是《满城尽带黄金甲》里那刀光剑影的天福官驿，还是炫酷超时空的《变形金刚》大战呢？</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">总是带给我们惊喜的武隆旅游，2018年，又一场大戏上演——武隆联合腾讯共同打造的交互微综艺《王牌大救星》，重磅登场。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\"><img src=\"/uploads/images/20180511/1526047468.jpg\" title=\"1526047468.jpg\" alt=\"147947421.jpg\"/></p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">这场大戏，通过全景技术与原创视频内容的创意结合全新打造，那又会带给我们怎样的视觉盛宴，又会带来一个什么神奇的故事？</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">这场大戏，通过“拯救关晓彤”的主线贯穿始末，又会是谁来闯过层层障碍，演绎英雄救美？</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">据武隆景区相关负责人介绍，《王牌大救星》项目作为首档交互微综艺，通过全景技术与原创视频内容的创意结合全新打造，当红明星关晓彤受邀参与视频拍摄。项目以轻游戏多交互的模式，用“拯救关晓彤”为引线，并不断提示引导游客在720°无死角的全景视频中欣赏武隆的大美风光的同时，以角色扮演的方式，完成“拯救关晓彤”的一系列趣味任务。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">“《王牌大救星》通过挖掘武隆景区的资源特色与文化，融合视听艺术与浸入式科技，运用最新创意，一定会给予观众最深入人心的浸没式体验。”腾讯旅游相关负责人对此首创的项目非常有信心。</p><p><br/></p>') [ RunTime:0.033081s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:04:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.177633s][吞吐率：5.63req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:05:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.326686s][吞吐率：3.06req/s] [内存消耗：1,744.88kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryhzZUvIqkCB3COQXS',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '50727',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '加速全域旅游和旅游高质量发展迫在眉睫',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">“五一”小长假，全国各地、各景区游客接待量一路飘红，纷纷突破同期接待量。“面对集中出游，要从时间和空间上进行调整或扩容，以满足人们日益增长的美好生活需要，因此全域旅游发展迫在眉睫。”业内人士表示。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;"><strong>“集中出游”降低体验感</strong></p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;"><strong>旅游高质量发展刻不容缓</strong></p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">五一期间，济南宽厚里客流量达38万人次；淄博市周村古商城三天迎客2.83万人次；泰安市泰山风景区三天累计183463人进出山；临沂市天蒙景区仅4月30日一天接待游客达3.2万人，是去年高峰期的两倍……据国家文化和旅游部统计，“五一”假日全国共接待国内游客1.47亿人次，同比增长9.3%。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">山东旅游职业学院党委书记陈国忠认为：“五一小长假是近郊游、短途游比较集中的时间，城乡居民出游出现大规模叠加，这种集中出游的状态降低了人们的游览质量，引发游客不满”。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">旅游是人们获取美好生活的重要体现，山东省旅游发展委员会主任于风贵曾指出，高质量的旅游，就是能够带给游客最高档的体验，让游客融入当地百姓生活中，体验和享受到当地最好的一面。在近40年的发展中，山东旅游已经解决了“有没有”的问题，旅游产品供给已经相对丰富，但是面对庞大的出游人群，旅游产品的数量、质量仍需要进一步提升。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;"><strong>旅游资源分配不均</strong></p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;"><strong>“全域旅游”需成解决之道</strong></p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">《中国国内旅游报业发展年度报告2017》指出，2016年，全国游客接待量比例，东部地区占37%，中部地区占27%，西部地区占29%，东北地区占7%；旅游目的地的接待能力从东向西递减，在东、中、西三大区域“旅游产业综合发展水平”表现为5:3:2的三级阶梯状分布。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">落实到单一城市，这种旅游资源分布不均匀的现象表现的也非常明显。“五一假期我去济南的开埠区转了转，相比泉城广场、宽厚里等地方熙熙攘攘的人流，老商埠区显得格外冷清。”陈国忠感慨的说，“这就说明了现在旅游产业在空间上的布局是不协调的，也进一步证实了发展全域旅游的必要性、紧迫性”。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">旅游业发展到现在已经到了全民旅游、个人游、自驾游为主的新阶段，传统的“景点旅游”模式已经不能满足越来越多的出游需求，发展全域旅游迫在眉睫。“全域旅游解决的是旅游在时间、空间、服务设施等方面的问题，通过全年、全时段向游客提供产品，来满足不同游客的需求，可以实现对集中在某一时段、某一景点的游客分流的作用”。陈国忠指出了全域旅游在解决景区“假日病”中的作用。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">对于全域旅游发展的总体要求，国家文化和旅游部副部长李金早曾强调，要加快旅游供给侧结构性改革，着力推动旅游业从门票经济向产业经济转变，从粗放低效方式向精细高效方式转变，从封闭的旅游自循环向开放的“旅游＋”转变，从企业单打独享向社会共建共享转变，从景区内部管理向全面依法治理转变，从部门行为向政府统筹推进转变，从单一景点景区建设管理向综合目的地服务转变。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">休假是休闲与旅游的时间前提。2008年1月1日《职工带薪年休假条例》正式实施，然而，时隔十年，“带薪休假”的“福利”在很多企事业单位仍然是一纸空文。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">“推广带薪休假其实是在时间尺度上对旅游的优化。”陈国忠说，进一步加快落实职工带薪休假，通过自主、灵活地安排休假时间才能实现旅游市场的均衡、可持续发展，才能保障游客的出游质量，也是缓解旅游产业“供需失衡”的必要措施之一。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.094269s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.032413s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('加速全域旅游和旅游高质量发展迫在眉睫' , 'http://www.vuecms.com/uploads/news/20180511\\55986a4be21842a592ca3354d18139b7.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">“五一”小长假，全国各地、各景区游客接待量一路飘红，纷纷突破同期接待量。“面对集中出游，要从时间和空间上进行调整或扩容，以满足人们日益增长的美好生活需要，因此全域旅游发展迫在眉睫。”业内人士表示。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\"><strong>“集中出游”降低体验感</strong></p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\"><strong>旅游高质量发展刻不容缓</strong></p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">五一期间，济南宽厚里客流量达38万人次；淄博市周村古商城三天迎客2.83万人次；泰安市泰山风景区三天累计183463人进出山；临沂市天蒙景区仅4月30日一天接待游客达3.2万人，是去年高峰期的两倍……据国家文化和旅游部统计，“五一”假日全国共接待国内游客1.47亿人次，同比增长9.3%。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">山东旅游职业学院党委书记陈国忠认为：“五一小长假是近郊游、短途游比较集中的时间，城乡居民出游出现大规模叠加，这种集中出游的状态降低了人们的游览质量，引发游客不满”。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">旅游是人们获取美好生活的重要体现，山东省旅游发展委员会主任于风贵曾指出，高质量的旅游，就是能够带给游客最高档的体验，让游客融入当地百姓生活中，体验和享受到当地最好的一面。在近40年的发展中，山东旅游已经解决了“有没有”的问题，旅游产品供给已经相对丰富，但是面对庞大的出游人群，旅游产品的数量、质量仍需要进一步提升。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\"><strong>旅游资源分配不均</strong></p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\"><strong>“全域旅游”需成解决之道</strong></p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">《中国国内旅游报业发展年度报告2017》指出，2016年，全国游客接待量比例，东部地区占37%，中部地区占27%，西部地区占29%，东北地区占7%；旅游目的地的接待能力从东向西递减，在东、中、西三大区域“旅游产业综合发展水平”表现为5:3:2的三级阶梯状分布。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">落实到单一城市，这种旅游资源分布不均匀的现象表现的也非常明显。“五一假期我去济南的开埠区转了转，相比泉城广场、宽厚里等地方熙熙攘攘的人流，老商埠区显得格外冷清。”陈国忠感慨的说，“这就说明了现在旅游产业在空间上的布局是不协调的，也进一步证实了发展全域旅游的必要性、紧迫性”。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">旅游业发展到现在已经到了全民旅游、个人游、自驾游为主的新阶段，传统的“景点旅游”模式已经不能满足越来越多的出游需求，发展全域旅游迫在眉睫。“全域旅游解决的是旅游在时间、空间、服务设施等方面的问题，通过全年、全时段向游客提供产品，来满足不同游客的需求，可以实现对集中在某一时段、某一景点的游客分流的作用”。陈国忠指出了全域旅游在解决景区“假日病”中的作用。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">对于全域旅游发展的总体要求，国家文化和旅游部副部长李金早曾强调，要加快旅游供给侧结构性改革，着力推动旅游业从门票经济向产业经济转变，从粗放低效方式向精细高效方式转变，从封闭的旅游自循环向开放的“旅游＋”转变，从企业单打独享向社会共建共享转变，从景区内部管理向全面依法治理转变，从部门行为向政府统筹推进转变，从单一景点景区建设管理向综合目的地服务转变。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">休假是休闲与旅游的时间前提。2008年1月1日《职工带薪年休假条例》正式实施，然而，时隔十年，“带薪休假”的“福利”在很多企事业单位仍然是一纸空文。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">“推广带薪休假其实是在时间尺度上对旅游的优化。”陈国忠说，进一步加快落实职工带薪休假，通过自主、灵活地安排休假时间才能实现旅游市场的均衡、可持续发展，才能保障游客的出游质量，也是缓解旅游产业“供需失衡”的必要措施之一。</p><p><br/></p>') [ RunTime:0.030238s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:05:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.233385s][吞吐率：4.28req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:07:56+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.310735s][吞吐率：3.22req/s] [内存消耗：1,705.86kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHHmgJBICHopegwgE',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '1367812',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => ' 成都22个景区开放日可免费游览',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">7日，四川新闻网记者从成都市发改委获悉，5月18日起，成都22个景区将陆续实行免费开放日。指定日这一天，这些景区可免门票游玩，5月就可以免费耍9个景区。需要注意的是，部分景区需要提前预约。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">据悉，为落实《成都市人民政府办公厅关于印发成都市优化旅游景区营收模式促进旅游业发展实施方案的通知》要求，加大惠民力度，促进旅游消费，成都市发改委公布了成都市22个利用公共资源建设的游览参观点免费开放日。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">需要注意的是，天台山、成都大熊猫繁育研究基地(含都江堰野放中心)、青城山景区、都江堰景区、青城山后山景区等景点需要提前预约。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">同时，特此提醒广大游客：在免费开放日前往公告中的游览参观点，应提前通过景区官网、官方媒体、网络等渠道了解相关信息，合理安排行程，维护游览秩序。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033327s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.052018s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES (' 成都22个景区开放日可免费游览' , 'http://www.vuecms.com/uploads/news/20180511\\4b3474b0ee7daf39c7146274ca0e031f.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">7日，四川新闻网记者从成都市发改委获悉，5月18日起，成都22个景区将陆续实行免费开放日。指定日这一天，这些景区可免门票游玩，5月就可以免费耍9个景区。需要注意的是，部分景区需要提前预约。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">据悉，为落实《成都市人民政府办公厅关于印发成都市优化旅游景区营收模式促进旅游业发展实施方案的通知》要求，加大惠民力度，促进旅游消费，成都市发改委公布了成都市22个利用公共资源建设的游览参观点免费开放日。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">需要注意的是，天台山、成都大熊猫繁育研究基地(含都江堰野放中心)、青城山景区、都江堰景区、青城山后山景区等景点需要提前预约。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">同时，特此提醒广大游客：在免费开放日前往公告中的游览参观点，应提前通过景区官网、官方媒体、网络等渠道了解相关信息，合理安排行程，维护游览秩序。</p><p><br/></p>') [ RunTime:0.032505s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:08:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.119895s][吞吐率：8.34req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:08:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.478873s][吞吐率：2.09req/s] [内存消耗：1,720.88kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQVSAfxPeT228hhBW',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '572385',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '加强地方立法工作助推全域旅游发展',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">5月1日起，湖南省张家界市制定的全国首部全域旅游地方性法规——《张家界市全域旅游促进条例》（以下简称《条例》）正式施行，引起业界普遍关注，本报记者围绕相关话题采访了有关人士。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;"><strong>为什么要制定</strong></p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">早在2016年，张家界市人大常委会法工委就围绕旅游立法进行了多层次、多领域的调研，并将《条例》列入2017年度市人大常委会立法计划。在起草、修改、审议过程中，张家界先后组织调研、座谈会等50多次，听取和吸收了区县人大、区县政府、乡镇政府、市直部门，各级人大代表，有关专家学者和社会各方的意见，并通过张家界市人大门户网站、市政府门户网站、市人大微信公众号征求公众意见。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">今年2月28日，张家界市七届人大常委会第十一次会议进行了第四次审议并全票表决通过《条例》，3月31日经湖南省第十三届人大常委会第三次会议批准施行。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">《条例》起草组相关成员介绍，《条例》依据《中华人民共和国旅游法》《中华人民共和国城乡规划法》《湖南省实施〈中华人民共和国旅游法〉办法》等法律法规，参考《湖南省国有资源有偿使用收入管理办法》等规章规范性文件，参阅了浙江杭州、四川成都等地的地方性法规，结合本市实际，作出具体化、实施性的规定。制定该条例的目的是，通过完善全域旅游的规划体系、基础设施和公共服务体系、社会治理和保障体系，促进张家界全域旅游科学、健康、协调、有序发展。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">张家界市旅游和外事侨务委员会主任兰智平表示，张家界市以旅游立市、旅游兴市。2017年，全市旅游接待突破7000万人次，旅游业成为最重要的支柱产业。当前，张家界旅游业正处于从景点旅游向全域旅游的转型过程。湖南省委、省政府要求，张家界市要充分发挥在“锦绣潇湘”全域旅游基地建设中的龙头作用，为全国全域旅游发展做好示范和带头作用。因此，制定促进全域旅游发展的地方性法规，完善促进全域旅游发展的顶层设计，是当地立法工作的一项重要任务。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025224s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.038897s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('加强地方立法工作助推全域旅游发展' , 'http://www.vuecms.com/uploads/news/20180511\\8781cd92956041fb9f282dd780ac9823.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">5月1日起，湖南省张家界市制定的全国首部全域旅游地方性法规——《张家界市全域旅游促进条例》（以下简称《条例》）正式施行，引起业界普遍关注，本报记者围绕相关话题采访了有关人士。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\"><strong>为什么要制定</strong></p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">早在2016年，张家界市人大常委会法工委就围绕旅游立法进行了多层次、多领域的调研，并将《条例》列入2017年度市人大常委会立法计划。在起草、修改、审议过程中，张家界先后组织调研、座谈会等50多次，听取和吸收了区县人大、区县政府、乡镇政府、市直部门，各级人大代表，有关专家学者和社会各方的意见，并通过张家界市人大门户网站、市政府门户网站、市人大微信公众号征求公众意见。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">今年2月28日，张家界市七届人大常委会第十一次会议进行了第四次审议并全票表决通过《条例》，3月31日经湖南省第十三届人大常委会第三次会议批准施行。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">《条例》起草组相关成员介绍，《条例》依据《中华人民共和国旅游法》《中华人民共和国城乡规划法》《湖南省实施〈中华人民共和国旅游法〉办法》等法律法规，参考《湖南省国有资源有偿使用收入管理办法》等规章规范性文件，参阅了浙江杭州、四川成都等地的地方性法规，结合本市实际，作出具体化、实施性的规定。制定该条例的目的是，通过完善全域旅游的规划体系、基础设施和公共服务体系、社会治理和保障体系，促进张家界全域旅游科学、健康、协调、有序发展。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">张家界市旅游和外事侨务委员会主任兰智平表示，张家界市以旅游立市、旅游兴市。2017年，全市旅游接待突破7000万人次，旅游业成为最重要的支柱产业。当前，张家界旅游业正处于从景点旅游向全域旅游的转型过程。湖南省委、省政府要求，张家界市要充分发挥在“锦绣潇湘”全域旅游基地建设中的龙头作用，为全国全域旅游发展做好示范和带头作用。因此，制定促进全域旅游发展的地方性法规，完善促进全域旅游发展的顶层设计，是当地立法工作的一项重要任务。</p><p><br/></p>') [ RunTime:0.203607s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:08:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.192794s][吞吐率：5.19req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:09:18+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.340838s][吞吐率：2.93req/s] [内存消耗：1,707.88kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZzCcnd9c4PBxVW4P',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '30383',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '我国沿海渔港建设规划融入旅游功能',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">国家发改委、农业农村部日前印发《全国沿海渔港建设规划（2018—2025年）》（以下简称《规划》），对我国渔港建设作出全面规划。《规划》显示，90%以上的渔港经济区建设规划融入了旅游功能，比如滨海旅游、主题公园、休闲渔业、海洋文化展示等。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">《规划》提出，我国沿海渔港建设将根据现有设施情况明确功能定位，全面统筹规划渔港经济区建设，并与主体功能区划、海洋功能区划、海洋经济发展规划、渔业发展规划、沿海港口（船舶航道及锚地）规划、近岸海域环境功能区划、城乡规划和旅游规划等相衔接。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">《规划》显示，山东半岛沿海渔港群的灌云—响水渔港经济区明确提出，要打造旅游商贸、海钓基地、海洋主题公园；上海—浙江沿海渔港群的象山渔港经济区规划明确提出，要打造海洋公园和渔文化特色创意街区；东南沿海渔港群的三都澳东冲半岛渔港经济区规划明确提出，要推动形成集海岛观光、旅游综合服务和渔业生产贸易等为特色的渔港经济区。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">《规划》还提出，将通过规划建设渔港经济区，建设一批集渔船安全避风、鱼货集散、渔业生产、服务贸易、运输补给、滨海旅游、特色城镇等功能于一体的现代渔港，为捕捞渔民提供再就业岗位，有效拓宽捕捞渔民就业渠道，为压减近海渔业过剩捕捞产能作出贡献。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014398s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.052700s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('我国沿海渔港建设规划融入旅游功能' , 'http://www.vuecms.com/uploads/news/20180511\\247d3fddb80848a0702244d1c713b11a.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">国家发改委、农业农村部日前印发《全国沿海渔港建设规划（2018—2025年）》（以下简称《规划》），对我国渔港建设作出全面规划。《规划》显示，90%以上的渔港经济区建设规划融入了旅游功能，比如滨海旅游、主题公园、休闲渔业、海洋文化展示等。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">《规划》提出，我国沿海渔港建设将根据现有设施情况明确功能定位，全面统筹规划渔港经济区建设，并与主体功能区划、海洋功能区划、海洋经济发展规划、渔业发展规划、沿海港口（船舶航道及锚地）规划、近岸海域环境功能区划、城乡规划和旅游规划等相衔接。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">《规划》显示，山东半岛沿海渔港群的灌云—响水渔港经济区明确提出，要打造旅游商贸、海钓基地、海洋主题公园；上海—浙江沿海渔港群的象山渔港经济区规划明确提出，要打造海洋公园和渔文化特色创意街区；东南沿海渔港群的三都澳东冲半岛渔港经济区规划明确提出，要推动形成集海岛观光、旅游综合服务和渔业生产贸易等为特色的渔港经济区。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">《规划》还提出，将通过规划建设渔港经济区，建设一批集渔船安全避风、鱼货集散、渔业生产、服务贸易、运输补给、滨海旅游、特色城镇等功能于一体的现代渔港，为捕捞渔民提供再就业岗位，有效拓宽捕捞渔民就业渠道，为压减近海渔业过剩捕捞产能作出贡献。</p><p><br/></p>') [ RunTime:0.033732s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:09:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.196588s][吞吐率：5.09req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:09:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.484574s][吞吐率：2.06req/s] [内存消耗：1,707.38kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPkPFt8cH65JutCZp',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '169761',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '近半数中国游客愿靠科技产品实现"无界限旅行"',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">人民网北京5月4日电 （魏欣宁）酒店及住宿在线预订平台Booking.com近期发布“无界限旅行”研究报告，关注旅行者的旅行困惑和焦虑，鼓励旅行者冲破所有障碍与壁垒，在旅行中寻找无限的可能和全新的体验，真正实现“无界限旅行”的无悔体验。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">根据调查报告显示，84%的中国旅行者们对于“无界限旅行”中所能获得的丰富旅行体验抱有憧憬，但仍有40%的中国旅行者认为他们无法充分利用好每次行程安排，容易在旅行中错失一些独特的体验机会。结合数据分析，即使对于置身异域文化（72%）和体验多样住宿（42%）的“无界限旅行”体验充满期待，语言不通所带来的种种不便依旧阻碍了超过38%的中国旅行者跨出国门享受旅行。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">为了克服旅行焦虑和壁垒，近一半的中国旅行者（42%）如今都更愿意依赖科技产品的力量。据悉，Booking.com联合离线即时翻译器ili咿哩，为Booking.com用户推出专属的限量版ili咿哩翻译器（中文-日文/英文翻译）以及专享折扣，为旅行者打造更为便捷的“无界限旅行”体验。Booking.com高级副总裁兼首席营销官Pepijn Rijvers 表示：“与ili咿哩的合作仅仅是一个开端，无论是绝妙的住宿选择，抑或是目的地的旅行资讯，Booking.com希望能够充分运用科学技术的力量，逐渐消除旅行中的壁垒，从而赋予旅行者更多尽享全球住宿，领略缤纷世界的机会。”</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.221201s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.033254s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('近半数中国游客愿靠科技产品实现\"无界限旅行\"' , 'http://www.vuecms.com/uploads/news/20180511\\34ee092ef26d730054777b96f36afcb2.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">人民网北京5月4日电 （魏欣宁）酒店及住宿在线预订平台Booking.com近期发布“无界限旅行”研究报告，关注旅行者的旅行困惑和焦虑，鼓励旅行者冲破所有障碍与壁垒，在旅行中寻找无限的可能和全新的体验，真正实现“无界限旅行”的无悔体验。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">根据调查报告显示，84%的中国旅行者们对于“无界限旅行”中所能获得的丰富旅行体验抱有憧憬，但仍有40%的中国旅行者认为他们无法充分利用好每次行程安排，容易在旅行中错失一些独特的体验机会。结合数据分析，即使对于置身异域文化（72%）和体验多样住宿（42%）的“无界限旅行”体验充满期待，语言不通所带来的种种不便依旧阻碍了超过38%的中国旅行者跨出国门享受旅行。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">为了克服旅行焦虑和壁垒，近一半的中国旅行者（42%）如今都更愿意依赖科技产品的力量。据悉，Booking.com联合离线即时翻译器ili咿哩，为Booking.com用户推出专属的限量版ili咿哩翻译器（中文-日文/英文翻译）以及专享折扣，为旅行者打造更为便捷的“无界限旅行”体验。Booking.com高级副总裁兼首席营销官Pepijn Rijvers 表示：“与ili咿哩的合作仅仅是一个开端，无论是绝妙的住宿选择，抑或是目的地的旅行资讯，Booking.com希望能够充分运用科学技术的力量，逐渐消除旅行中的壁垒，从而赋予旅行者更多尽享全球住宿，领略缤纷世界的机会。”</p><p><br/></p>') [ RunTime:0.043533s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:09:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.136028s][吞吐率：7.35req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:12:10+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.300355s][吞吐率：3.33req/s] [内存消耗：1,716.88kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvpkdAyRyd4CMizi9',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '29231',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '铁路旅游开启互联互通融合发展新时代',
+  'content' => '<p style="line-height: 2em;">&nbsp;&nbsp;&nbsp;<span style="font-size: 18px; font-family: 宋体, SimSun;">&nbsp;4月26日，“铁路客运提质跨局合作暨环西部游主题推介会”在中国铁路兰州局集团有限公司召开，全国18个铁路局集团公司与甘肃省旅发委、甘肃省民航机场集团等部门和单位共同签订了合作协议，推进铁路旅游迈入了互联互通、融合发展的新时代。</span></p><p style="line-height: 2em;"><span style="font-size: 18px; font-family: 宋体, SimSun;">兰州局集团依托西部丰富的旅游资源，充分发挥兰新高铁、宝兰高铁、兰渝铁路开通后西部旅游市场的巨大潜力，率先搭建铁路旅游平台，大力实施运输供给侧结构性改革，在兄弟局之间相互增开旅游为主体的客运列车，不断满足人民日益增长的美好生活需要。</span></p><p style="line-height: 2em;"><span style="font-size: 18px; font-family: 宋体, SimSun;">&nbsp;“环西部火车游”旅游产品在这次主题推介会上精彩亮相，将地面传统服务模式与列车相融合，分别由旅游班列、火车驿站、火车主题公园、火车民宿四大新型主题产品构成。兰州局经营开发处处长吴冰介绍，“火车游” 的特点是通过旅游列车的平台化和跨界融合，开创以线下客车网为核心，融合景区、观光、旅居等功能的旅游新业态，为游客带来全新的出行体验。</span></p><p style="line-height: 2em;"><span style="font-size: 18px; font-family: 宋体, SimSun;">&nbsp;“环西部火车游”开发了多条环形旅游精品线路：兰州至天水、西安等方向的“华夏寻根·人文始祖”东线旅游线路，兰州至敦煌、嘉峪关、酒泉、张掖等方向的“河西走廊·西行漫记”西线旅游线路，兰州至陇南、姚渡等方向的“陇上江南·行摄山水”南线旅游线路，银川至成都、杭州等方向“塞上江南·神奇宁夏”北线旅游线路。根据假日客流需求，优化运输组织、创新服务方式，开行“五一”陇南春色旅游、“七一”哈达铺红色旅游、“十一”额济纳旗胡杨林“秋天的童话”旅游等特色旅游专列；根据客户不同需求，私人定制开行商务、婚庆、会议等高端旅游专线车。</span></p><p style="line-height: 2em;"><span style="font-size: 18px; font-family: 宋体, SimSun;">&nbsp;兰州局还精心打造嘉峪关方特火车驿站、敦煌月牙小镇火车酒吧、铁路火车主题公园、沙都驿站火车民宿，为游客提供休闲、创意和乡野体验。并积极与政府、企业合作，以宣传地方文化、企业产品、实现互惠共赢为目标，冠名开行了银川至北京K1178次“六盘山号”列车等品牌列车。充分发挥铁路客运在旅游交通中的骨干作用，结合甘肃省“旅游强省”战略，以既有管内图定列车为依托，新增“环西部火车游”兰州至敦煌Y681/4 Y683/2次旅游列车1对，形成旅客列车管内环游模式。</span></p><p style="line-height: 2em;"><span style="font-size: 18px; font-family: 宋体, SimSun;">&nbsp;根据合作协议，兰州局将逐步推出空铁联运、“高铁+共享汽车”、限量版火车民宿等服务新产品，还将进一步完善站车WIFI、网络配餐、高铁无轨站以及“兰铁易行”线上预约定制服务，优化站车环境，努力满足旅客多样化、个性化、定制化出现需求。</span></p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035737s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.034774s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('铁路旅游开启互联互通融合发展新时代' , 'http://www.vuecms.com/uploads/news/20180511\\ec88ab989c7d144394c241246cc2a392.jpg' , '<p style=\"line-height: 2em;\">&nbsp;&nbsp;&nbsp;<span style=\"font-size: 18px; font-family: 宋体, SimSun;\">&nbsp;4月26日，“铁路客运提质跨局合作暨环西部游主题推介会”在中国铁路兰州局集团有限公司召开，全国18个铁路局集团公司与甘肃省旅发委、甘肃省民航机场集团等部门和单位共同签订了合作协议，推进铁路旅游迈入了互联互通、融合发展的新时代。</span></p><p style=\"line-height: 2em;\"><span style=\"font-size: 18px; font-family: 宋体, SimSun;\">兰州局集团依托西部丰富的旅游资源，充分发挥兰新高铁、宝兰高铁、兰渝铁路开通后西部旅游市场的巨大潜力，率先搭建铁路旅游平台，大力实施运输供给侧结构性改革，在兄弟局之间相互增开旅游为主体的客运列车，不断满足人民日益增长的美好生活需要。</span></p><p style=\"line-height: 2em;\"><span style=\"font-size: 18px; font-family: 宋体, SimSun;\">&nbsp;“环西部火车游”旅游产品在这次主题推介会上精彩亮相，将地面传统服务模式与列车相融合，分别由旅游班列、火车驿站、火车主题公园、火车民宿四大新型主题产品构成。兰州局经营开发处处长吴冰介绍，“火车游” 的特点是通过旅游列车的平台化和跨界融合，开创以线下客车网为核心，融合景区、观光、旅居等功能的旅游新业态，为游客带来全新的出行体验。</span></p><p style=\"line-height: 2em;\"><span style=\"font-size: 18px; font-family: 宋体, SimSun;\">&nbsp;“环西部火车游”开发了多条环形旅游精品线路：兰州至天水、西安等方向的“华夏寻根·人文始祖”东线旅游线路，兰州至敦煌、嘉峪关、酒泉、张掖等方向的“河西走廊·西行漫记”西线旅游线路，兰州至陇南、姚渡等方向的“陇上江南·行摄山水”南线旅游线路，银川至成都、杭州等方向“塞上江南·神奇宁夏”北线旅游线路。根据假日客流需求，优化运输组织、创新服务方式，开行“五一”陇南春色旅游、“七一”哈达铺红色旅游、“十一”额济纳旗胡杨林“秋天的童话”旅游等特色旅游专列；根据客户不同需求，私人定制开行商务、婚庆、会议等高端旅游专线车。</span></p><p style=\"line-height: 2em;\"><span style=\"font-size: 18px; font-family: 宋体, SimSun;\">&nbsp;兰州局还精心打造嘉峪关方特火车驿站、敦煌月牙小镇火车酒吧、铁路火车主题公园、沙都驿站火车民宿，为游客提供休闲、创意和乡野体验。并积极与政府、企业合作，以宣传地方文化、企业产品、实现互惠共赢为目标，冠名开行了银川至北京K1178次“六盘山号”列车等品牌列车。充分发挥铁路客运在旅游交通中的骨干作用，结合甘肃省“旅游强省”战略，以既有管内图定列车为依托，新增“环西部火车游”兰州至敦煌Y681/4 Y683/2次旅游列车1对，形成旅客列车管内环游模式。</span></p><p style=\"line-height: 2em;\"><span style=\"font-size: 18px; font-family: 宋体, SimSun;\">&nbsp;根据合作协议，兰州局将逐步推出空铁联运、“高铁+共享汽车”、限量版火车民宿等服务新产品，还将进一步完善站车WIFI、网络配餐、高铁无轨站以及“兰铁易行”线上预约定制服务，优化站车环境，努力满足旅客多样化、个性化、定制化出现需求。</span></p><p><br/></p>') [ RunTime:0.043930s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:12:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.128611s][吞吐率：7.78req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:12:17+08:00 ] 127.0.0.1 127.0.0.1 GET /news/index.html
+[ info ] www.vuecms.com/news/index.html [运行时间：0.226737s][吞吐率：4.41req/s] [内存消耗：1,890.24kb] [文件加载：50]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\index.html [ array (
+  0 => 'news',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008241s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.015060s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.001788s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` LIMIT 0,20 [ RunTime:0.002297s ]
+[ error ] [0]致命错误: Call to undefined function 2018-05-11 22:12:17()[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\runtime\temp\9f38b725444fb00e817bc1461fae0abc.php:108]
+---------------------------------------------------------------
+[ 2018-05-11T22:12:50+08:00 ] 127.0.0.1 127.0.0.1 GET /news/index.html
+[ info ] www.vuecms.com/news/index.html [运行时间：0.288836s][吞吐率：3.46req/s] [内存消耗：2,097.66kb] [文件加载：53]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\index.html [ array (
+  0 => 'news',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009029s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.029840s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.005345s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` LIMIT 0,20 [ RunTime:0.002832s ]
+[ error ] [2]date() expects parameter 2 to be integer, string given[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\runtime\temp\9f38b725444fb00e817bc1461fae0abc.php:108]
+---------------------------------------------------------------
+[ 2018-05-11T22:13:48+08:00 ] 127.0.0.1 127.0.0.1 GET /news/index.html
+[ info ] www.vuecms.com/news/index.html [运行时间：0.324392s][吞吐率：3.08req/s] [内存消耗：2,097.63kb] [文件加载：53]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\index.html [ array (
+  0 => 'news',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033815s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.039509s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` LIMIT 0,20 [ RunTime:0.003692s ]
+[ error ] [8]A non well formed numeric value encountered[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\runtime\temp\9f38b725444fb00e817bc1461fae0abc.php:108]
+---------------------------------------------------------------
+[ 2018-05-11T22:14:11+08:00 ] 127.0.0.1 127.0.0.1 GET /news/index.html
+[ info ] www.vuecms.com/news/index.html [运行时间：0.282495s][吞吐率：3.54req/s] [内存消耗：2,012.16kb] [文件加载：49]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\index.html [ array (
+  0 => 'news',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020917s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.024141s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.004947s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` LIMIT 0,20 [ RunTime:0.004053s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:14:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.104127s][吞吐率：9.60req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/news/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:14:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.341691s][吞吐率：2.93req/s] [内存消耗：1,736.85kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBFhPy5HwW0AtfrqN',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '72443',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '中印旅游业合作前景可期',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">新华社孟买4月29日电 专访：中印旅游业合作前景可期——访印度斯迪克旅游集团主席苏巴什·戈亚尔</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">新华社记者张兴军</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">印度知名旅游服务商斯迪克旅游集团主席苏巴什·戈亚尔日前接受新华社记者专访时表示，中印旅游市场的快速增长激动人心，他对两国旅游业合作前景充满期待。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">总部位于新德里的斯迪克旅游集团成立于1973年，是全球众多知名旅游、航空和酒店品牌在印度业务的总代理。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">戈亚尔介绍，根据印度旅游部门掌握的数据，2017年中国访印游客达25万人次。与此同时，印度也是中国入境游的重要客源市场，去年两国双向交流人数近百万人次。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">记者注意到，在戈亚尔名片背面印着的多家航空公司徽标中，中国国航排在首位。对此，他解释说，早在2002年公司就开始与中国国航开展业务合作。伴随着中国国航在印度业务的增长，作为代理公司，斯迪克旅游集团的相关收入也水涨船高。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">“中印旅游业合作的最大优势是，我们互为邻国，又是世界上人口最多的两个国家，”戈亚尔说，“公司一直致力于挖掘中印旅游市场的潜力。”</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">谈及未来，戈亚尔表示，中印旅游市场前景广阔，随着两国间贸易、商务、旅游交往的持续增多，未来相关数据还会有明显涨幅。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">相关机构的研究显示，未来5年，中印航空市场年均增长率预计将达8．8％，2018年中印双向旅客流量将突破100万人次，2021年达到130万人次。综合考虑近两年中国对印度投资大幅增加，以及印度对中国实施电子签证政策对市场的有力拉动，未来中印航空市场年均增长率有望超过10％。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;">“我希望有一天，中国国航的飞机能够实现日均一班或两班飞往印度主要城市；而印航、捷特等印度航空公司的飞机也有机会飞到所有中国主要城市。”戈亚尔说。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026448s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.032483s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('中印旅游业合作前景可期' , 'http://www.vuecms.com/uploads/news/20180511\\de28b6312035514affb1cfd549f14590.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">新华社孟买4月29日电 专访：中印旅游业合作前景可期——访印度斯迪克旅游集团主席苏巴什·戈亚尔</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">新华社记者张兴军</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">印度知名旅游服务商斯迪克旅游集团主席苏巴什·戈亚尔日前接受新华社记者专访时表示，中印旅游市场的快速增长激动人心，他对两国旅游业合作前景充满期待。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">总部位于新德里的斯迪克旅游集团成立于1973年，是全球众多知名旅游、航空和酒店品牌在印度业务的总代理。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">戈亚尔介绍，根据印度旅游部门掌握的数据，2017年中国访印游客达25万人次。与此同时，印度也是中国入境游的重要客源市场，去年两国双向交流人数近百万人次。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">记者注意到，在戈亚尔名片背面印着的多家航空公司徽标中，中国国航排在首位。对此，他解释说，早在2002年公司就开始与中国国航开展业务合作。伴随着中国国航在印度业务的增长，作为代理公司，斯迪克旅游集团的相关收入也水涨船高。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">“中印旅游业合作的最大优势是，我们互为邻国，又是世界上人口最多的两个国家，”戈亚尔说，“公司一直致力于挖掘中印旅游市场的潜力。”</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">谈及未来，戈亚尔表示，中印旅游市场前景广阔，随着两国间贸易、商务、旅游交往的持续增多，未来相关数据还会有明显涨幅。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">相关机构的研究显示，未来5年，中印航空市场年均增长率预计将达8．8％，2018年中印双向旅客流量将突破100万人次，2021年达到130万人次。综合考虑近两年中国对印度投资大幅增加，以及印度对中国实施电子签证政策对市场的有力拉动，未来中印航空市场年均增长率有望超过10％。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 2em;\">“我希望有一天，中国国航的飞机能够实现日均一班或两班飞往印度主要城市；而印航、捷特等印度航空公司的飞机也有机会飞到所有中国主要城市。”戈亚尔说。</p><p><br/></p>') [ RunTime:0.097393s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:15:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.143496s][吞吐率：6.97req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:15:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.310698s][吞吐率：3.22req/s] [内存消耗：1,709.88kb] [文件加载：45]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4VzFtk9wLjx2ZKcl',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.vuecms.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '19858',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '西藏旅游新政促一季度游客接待量增长近五成',
+  'content' => '<p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);">今年2月1日至4月30日，西藏开展“冬游西藏·共享地球第三极”活动，包括布达拉宫、大昭寺等西藏A级旅游景区免费对所有游客开放，同时推出涵盖酒店住宿、旅游车辆、航空铁路等优惠措施。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);">西藏旅发委透露，今年1至3月，全区接待境外游客3986人次，同比增长37.5%；接待内地游客约106.03万人次，同比增长49.5%。旅游总收入约12.62亿元人民币，同比增长47%。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);">“春节期间，一日游的短途路线比较受欢迎。”在西藏，孙赫男有6年的冬季旅游产品开发经历，她对记者说，2018年农历新年正月初一前后的半个月里，她所在的旅行社接待了920名游客，而去年同期则接待了363名，“今年西藏冬季旅游市场比以往任何一年都火爆”。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);">在拉萨一家四星级酒店从事管理工作的张茉莉说，自今年西藏实施旅游优惠政策以来，2月份，酒店的入住率比去年同期增加了约25%，因客满向同星级酒店转移客源的现象频频出现。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);">记者注意到，自今年2月以来，布达拉宫西南侧的药王山观景台上常常站满取景留影的游客；八廓街上，拍民族服装照、逛街购物的游客身影也明显增多；拉萨街头的特色餐厅还出现座满需要排队的现象。</p><p style="margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);">因冬季旅游人数激增而产生的旅游车辆紧张、酒店房间紧缺等问题，多位旅游行业从业者对记者表示，他们将在下一个“冬游西藏”来临前做好相关的预订工作。</p><p><br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024757s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.050053s ]
+[ sql ] [ SQL ] INSERT INTO `think_news` (`title` , `img` , `content`) VALUES ('西藏旅游新政促一季度游客接待量增长近五成' , 'http://www.vuecms.com/uploads/news/20180511\\496e48dab22c5e7c94e5f83c827dfe4e.jpg' , '<p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);\">今年2月1日至4月30日，西藏开展“冬游西藏·共享地球第三极”活动，包括布达拉宫、大昭寺等西藏A级旅游景区免费对所有游客开放，同时推出涵盖酒店住宿、旅游车辆、航空铁路等优惠措施。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);\">西藏旅发委透露，今年1至3月，全区接待境外游客3986人次，同比增长37.5%；接待内地游客约106.03万人次，同比增长49.5%。旅游总收入约12.62亿元人民币，同比增长47%。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);\">“春节期间，一日游的短途路线比较受欢迎。”在西藏，孙赫男有6年的冬季旅游产品开发经历，她对记者说，2018年农历新年正月初一前后的半个月里，她所在的旅行社接待了920名游客，而去年同期则接待了363名，“今年西藏冬季旅游市场比以往任何一年都火爆”。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);\">在拉萨一家四星级酒店从事管理工作的张茉莉说，自今年西藏实施旅游优惠政策以来，2月份，酒店的入住率比去年同期增加了约25%，因客满向同星级酒店转移客源的现象频频出现。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);\">记者注意到，自今年2月以来，布达拉宫西南侧的药王山观景台上常常站满取景留影的游客；八廓街上，拍民族服装照、逛街购物的游客身影也明显增多；拉萨街头的特色餐厅还出现座满需要排队的现象。</p><p style=\"margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; background-color: rgb(255, 255, 255);\">因冬季旅游人数激增而产生的旅游车辆紧张、酒店房间紧缺等问题，多位旅游行业从业者对记者表示，他们将在下一个“冬游西藏”来临前做好相关的预订工作。</p><p><br/></p>') [ RunTime:0.050095s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:15:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/news/add.html
+[ info ] www.vuecms.com/index/news/add.html [运行时间：0.153065s][吞吐率：6.53req/s] [内存消耗：1,209.41kb] [文件加载：39]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->add[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:15:51+08:00 ] 127.0.0.1 127.0.0.1 GET /news/index.html
+[ info ] www.vuecms.com/news/index.html [运行时间：0.182168s][吞吐率：5.49req/s] [内存消耗：1,898.01kb] [文件加载：47]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'News',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.vuecms.com/index/news/add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 604800,
+)
+[ info ] [ RUN ] app\index\controller\News->index[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\index\controller\News.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\public/../application/index\view\news\index.html [ array (
+  0 => 'news',
+  1 => 'pages',
+  2 => 'current_page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008737s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.032497s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.002253s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` LIMIT 0,20 [ RunTime:0.003876s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:19:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/hetm=newslist
+[ info ] www.vuecms.com/api/hetm=newslist [运行时间：0.128843s][吞吐率：7.76req/s] [内存消耗：898.40kb] [文件加载：32]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'hetm=newslist',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-11T22:20:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getnewslist
+[ info ] www.vuecms.com/api/getnewslist [运行时间：0.336846s][吞吐率：2.97req/s] [内存消耗：1,776.27kb] [文件加载：44]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getNewsList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getNewsList[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.161386s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.035080s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.003505s ]
+[ error ] [0]致命错误: Call to a member function count() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:17]
+---------------------------------------------------------------
+[ 2018-05-11T22:20:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getnewslist
+[ info ] www.vuecms.com/api/getnewslist [运行时间：0.231872s][吞吐率：4.31req/s] [内存消耗：1,776.79kb] [文件加载：44]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getNewsList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getNewsList[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059905s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.034908s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.003355s ]
+[ error ] [0]致命错误: Call to a member function count() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:17]
+---------------------------------------------------------------
+[ 2018-05-11T22:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.236327s][吞吐率：4.23req/s] [内存消耗：1,699.30kb] [文件加载：44]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025506s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.034016s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001721s ]
+[ error ] [0]致命错误: Call to a member function count() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:11]
+---------------------------------------------------------------
+[ 2018-05-11T22:21:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.184851s][吞吐率：5.41req/s] [内存消耗：1,699.27kb] [文件加载：44]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014397s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.033517s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001818s ]
+[ error ] [0]致命错误: Call to a member function count() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:11]
+---------------------------------------------------------------
+[ 2018-05-11T22:21:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.238423s][吞吐率：4.19req/s] [内存消耗：1,699.02kb] [文件加载：44]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010743s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.040496s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001818s ]
+[ error ] [0]致命错误: Call to a member function count() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:11]
+---------------------------------------------------------------
+[ 2018-05-11T22:22:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.256823s][吞吐率：3.89req/s] [内存消耗：1,699.02kb] [文件加载：44]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022154s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.033579s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.008628s ]
+[ error ] [0]致命错误: Call to a member function count() on array[G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php:11]
+---------------------------------------------------------------
+[ 2018-05-11T22:24:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.251338s][吞吐率：3.98req/s] [内存消耗：1,562.14kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043179s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.034940s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.009352s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001468s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:24:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getswipe
+[ info ] www.vuecms.com/api/getswipe [运行时间：0.151055s][吞吐率：6.62req/s] [内存消耗：1,562.75kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getSwipe',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getSwipe[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016580s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.036082s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.001935s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.001633s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:25:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getnewslist
+[ info ] www.vuecms.com/api/getnewslist [运行时间：0.148952s][吞吐率：6.71req/s] [内存消耗：1,660.46kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getNewsList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getNewsList[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016421s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.024248s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.011347s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.001457s ]
+---------------------------------------------------------------
+[ 2018-05-11T22:30:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/getnewslist
+[ info ] www.vuecms.com/api/getnewslist [运行时间：0.327920s][吞吐率：3.05req/s] [内存消耗：1,661.00kb] [文件加载：36]
+[ info ] [ LANG ] G:\phpstudy\PHPTutorial\WWW\VueCmsApi\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Api',
+    2 => 'getNewsList',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=jmqjg5fusldf62hvh7n9v0bdg5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.vuecms.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Api->getNewsList[ G:\phpstudy\PHPTutorial\WWW\VueCmsApi\application\api\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.144861s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.057788s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.003351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.002404s ]

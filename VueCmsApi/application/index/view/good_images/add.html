@@ -1,0 +1,91 @@
+{extend name="common/base" /}
+{block name="title"}添加商品轮播图{/block}
+{block name="page_title"}
+<h1><i class="fa fa-edit"></i> 添加商品轮播图</h1>
+{/block}
+{block name="page_path"}
+    <li class="breadcrumb-item">商品管理</li>
+    <li class="breadcrumb-item">添加商品轮播图</li>
+{/block}
+{block name="content"}
+	<form action="{:url('index/GoodImages/add')}" method="post" enctype="multipart/form-data" onsubmit="return validForm()">
+		<input type="hidden" name="id" value="{$good.id}">
+		<div class="form-group">
+			<label class="control-label">商品名称:</label>
+			<input class="form-control" type="text" id="title" name="title" value="{$good.title}" readonly>
+		</div>
+		<div class="form-group">
+	        <label class="control-label">轮播图:</label>
+	        <div class="col-lg-3" style="margin-left: -14px">
+            	<img class="form-control" id="imageShow" name="pic" width="150" height="140" />
+        	</div>
+			<input type="file" class="form-control-file" name="image" id="image" onchange="imgPreview(this)" />
+	    </div>
+	  	<button class="btn btn-primary" type="submit">添加</button>
+	</form>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#m-6").addClass('is-expanded');
+        $("#m-6-2").addClass('active');
+    })
+</script>
+<script type="text/javascript">
+    function imgPreview(fileDom){
+        //判断是否支持FileReader
+        if (window.FileReader) {
+            var reader = new FileReader();
+        } else {
+            alert("您的设备不支持图片预览功能，如需该功能请升级您的设备！");
+        }
+
+        //获取文件
+        var file = fileDom.files[0];
+        var ext=fileDom.value.substring(fileDom.value.lastIndexOf(".")+1).toLowerCase();
+        // gif在IE浏览器暂时无法显示
+        if(ext!='png'&&ext!='jpg'&&ext!='jpeg'){
+			if (ext != '') {
+				alert("图片的格式必须为png或者jpg或者jpeg格式！");
+			}
+			image_file = $("#image");
+			image_file.after(image_file.clone().val(""));
+			image_file.remove();
+			return;
+        }else{
+			if(((fileDom.files[0].size).toFixed(2))>=(2*1024*1024)){
+				alert("请上传小于2M的图片");
+				image_file = $("#image");
+				image_file.after(image_file.clone().val(""));
+				image_file.remove();
+			    return;
+			}
+        }
+        //读取完成
+        reader.onload = function(e) {
+            //获取图片dom
+            var img = document.getElementById("imageShow");
+            //图片路径设置为读取的图片
+            img.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+    }
+</script>
+<script>
+  function validForm()
+  {
+    title = $.trim($("#title").val());
+    image = $.trim($("#image").val());
+    if(title=="")
+    {
+      alert("商品轮播图不能为空");
+      return false;
+    }
+    if(image=="")
+    {
+      alert("轮播图不能为空");
+      return false;
+    }
+  }
+</script> 
+{/block}

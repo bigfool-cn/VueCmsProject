@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-07-06T11:25:31+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000190s ]

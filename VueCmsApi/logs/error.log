@@ -1,0 +1,8 @@
+[Mon Apr 16 13:16:03.171349 2018] [core:alert] [pid 32282] [client 14.159.88.229:14201] /var/www/html/Blog/.htaccess: RewriteCond: bad flag delimiters
+[Mon Apr 16 13:21:29.313110 2018] [core:alert] [pid 331] [client 14.159.88.229:14404] /var/www/html/Blog/.htaccess: RewriteCond: bad flag delimiters
+[Mon Apr 16 13:21:56.118104 2018] [core:alert] [pid 432] [client 14.159.88.229:14422] /var/www/html/Blog/.htaccess: RewriteCond: bad flag delimiters
+[Mon Apr 16 13:21:58.707965 2018] [core:alert] [pid 431] [client 14.159.88.229:14423] /var/www/html/Blog/.htaccess: RewriteCond: bad flag delimiters
+[Mon Apr 16 13:22:02.135982 2018] [core:alert] [pid 436] [client 14.159.88.229:14424] /var/www/html/Blog/.htaccess: RewriteCond: bad flag delimiters
+[Mon Apr 16 13:22:14.630609 2018] [core:alert] [pid 538] [client 14.159.88.229:14431] /var/www/html/Blog/.htaccess: RewriteCond: bad flag delimiters
+[Mon Apr 16 13:22:17.056666 2018] [core:alert] [pid 537] [client 14.159.88.229:14430] /var/www/html/Blog/.htaccess: RewriteCond: bad flag delimiters
+[Mon Apr 16 13:22:19.374510 2018] [core:alert] [pid 542] [client 14.159.88.229:14434] /var/www/html/Blog/.htaccess: RewriteCond: bad flag delimiters

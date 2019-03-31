@@ -1,0 +1,75 @@
+{extend name="index/base" /}
+{block name="title"}{$article.title}{/block}
+{block name="css"}
+<link href="/static/css/details.css" rel="stylesheet">
+<link href="/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" rel="stylesheet">
+{/block}
+{block name="article"}
+<article>
+  <div class="contain">
+    <div class="newsview">
+      <h2 class="intitle">您现在的位置是：<a href="/">首页</a>&nbsp;&gt;&nbsp;{if condition="$path=='learn'"}<a href="{:url('home/index/learn')}">学无止境</a>{else /}<a href="{:url('home/index/life')}">慢生活</a>{/if}</h2>
+      <h3 class="news_title">{$article.title}</h3>
+      <div class="news_author">
+        <span class=""><i class="fa fa-user-circle fa-lg"></i>&nbsp;&nbsp;{$article.author}</span><span class=""><i class="fa fa-calendar fa-lg"></i>&nbsp;&nbsp;{$article.create_time|strtotime|date="Y-m-d",###}</span><span class=""><i class="fa fa-eye fa-lg"></i>&nbsp;&nbsp;{$article.click_nums}</span><iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
+      </div>
+      <div class="news_about">
+        <strong>简介:</strong>{$article.desc}
+      </div>
+      <div class="news_infos" deep="4">
+         {$article.content}
+      </div>
+      <div id="cyReward" role="cylabs" data-use="reward" style="text-align:center;"></div>
+      <br />
+      <div class="nextinfo">
+        <p>上一篇：{if $pre_article}<a href="{:url('home/index/details')}?id={$pre_article.id}">{$pre_article.title}</a></p>{else /}<a href='{:url("home/index/$path")}'>返回列表</a></p>{/if}
+        <p>下一篇：{if $next_article}<a href="{:url('home/index/details')}?id={$next_article.id}">{$next_article.title}</a></p>{else /}<a href='{:url("home/index/$path")}'>返回列表</a></p>{/if}
+        <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
+      </div>
+      <div class="otherlink">
+        <h2>相关文章</h2>
+        <ul>
+          {volist name="relate_articles" id="relate_article"}
+            <li>
+              <a href="{:url('home/index/details',array('id'=>$relate_article.id))}">{$relate_article.title}</a>
+            </li>
+          {/volist}     
+        </ul>
+        <iframe id="tmp_downloadhelper_iframe" style="display: none;"></iframe>
+      </div>
+      <div class="news_pl">
+        <div id="SOHUCS" sid="{$article.id}"></div> 
+      </div>
+    </div>
+  </div>
+</article>
+{/block}
+{block name="js"}
+<script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cytze00ye"></script>
+<script src="/ueditor/third-party/SyntaxHighlighter/shCore.js"></script>
+<script>
+  SyntaxHighlighter.all();
+</script>
+<script type="text/javascript"> 
+  (function(){ 
+    var appid = 'cytze00ye'; 
+    var conf = 'prod_a32a2d3814407cbe04ea647ba55e37c1'; 
+    var width = window.innerWidth || document.documentElement.clientWidth; 
+    if (width < 960) { 
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); 
+</script>
+<script type="text/javascript">
+  $(function(){
+    if("{$path}"=="index"){
+      $("#index").css("color","#111");
+    }else{
+      $("#learn").css("color","#111");
+    }
+  });
+</script>
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2160272" charset="utf-8"></script>
+{/block}

@@ -1,0 +1,126 @@
+---------------------------------------------------------------
+[ 2018-07-03T11:03:44+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000537s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:04:20+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getnewslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:04:27+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getnewsdetail/7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.001858s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] UPDATE `think_news`  SET `click_num`=3  WHERE  `id` = 7 [ RunTime:0.007221s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:04:29+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getnewslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:06:32+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getnewslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.000202s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:06:36+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getnewslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:06:42+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:06:44+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getimgcategory/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img_category` [ RunTime:0.002580s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img_category` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img_category` LIMIT 1 [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:06:44+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getimages/0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000879s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_img` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `think_img` INNER JOIN `think_img_category` `imgc` ON `imgcategory_id`=`imgc`.`id` [ RunTime:0.003090s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_img` LIMIT 1 [ RunTime:0.000267s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:06:48+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000165s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:13:32+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000185s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:13:48+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000541s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000225s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:13:55+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000418s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000193s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:15:21+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000162s ]
+---------------------------------------------------------------
+[ 2018-07-03T11:15:33+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2018-07-03T15:30:44+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000174s ]
+---------------------------------------------------------------
+[ 2018-07-03T15:31:02+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000439s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000172s ]
+---------------------------------------------------------------
+[ 2018-07-03T15:31:04+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getnewslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2018-07-03T15:31:15+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2018-07-03T15:31:44+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getswipe
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_swipe` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `think_swipe` ORDER BY `id`  desc LIMIT 3 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_swipe` LIMIT 1 [ RunTime:0.000216s ]
+---------------------------------------------------------------
+[ 2018-07-03T15:32:04+08:00 ] 172.16.0.5 193.112.43.41 GET /api/getnewslist
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:dbname=vue_cms_api;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_news` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `think_news` ORDER BY `id`  desc [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_news` LIMIT 1 [ RunTime:0.000199s ]

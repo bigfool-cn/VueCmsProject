@@ -1,0 +1,49 @@
+﻿{extend name="index/base" /}
+{block name="title"}学无止境{/block}
+{block name="css"}
+<link href="/static/css/learn.css" rel="stylesheet">
+{/block}
+{block name="article"}
+<article>
+  <div class="contain">
+    <h2 class="ctitle"><b>学无止境</b> <span>当你的才华支撑不起野心时，你应该静下心来学习了。</span></h2>
+    <div class="rnav">
+      <ul>
+        {volist name="tags" id="tag"}
+        <li><a href="?tag={$tag.name}">{$tag.name}</a></li>
+        {/volist}
+      </ul>
+    </div>
+    <ul class="cbp_tmtimeline">
+      {volist name="articles" id="article"}
+      <li>
+        <time class="cbp_tmtime">
+          <span>{$article.create_time|strtotime|date="m-d",###}</span> <span>{$article.create_time|strtotime|date="Y",###}</span>
+        </time>
+        <div class="cbp_tmicon"></div>
+        <div class="cbp_tmlabel" data-scroll-reveal="enter right over 1s" >
+          <h2>{$article.title}</h2>
+          <p><span class="blogpic"><a href="{:url('home/index/details')}?id={$article.id}"><img src="{$article.image}" /></a></span>{$article.desc}...</p>
+          <a href="{:url('home/index/details')}?id={$article.id}" target="_blank" class="readmore">阅读全文&gt;&gt;</a> 
+        </div>
+      </li>
+      {/volist}
+    </ul>
+    <div class="page-li" id="pagination" >
+    </div>
+    <input type="hidden" id="PageCount" runat="server" value="{$pages}"/>
+    <input type="hidden" id="PageNum" runat="server" value="{$current_page}"/>
+    <input type="hidden" id="currentTag" runat="server" value="{$current_tag}"/>
+  </div>
+  </aside>
+</article>
+{/block}
+{block name="js"}
+<script type="text/javascript">
+  $(function(){
+    $("#learn").css("color","#111");
+  });
+</script>
+<script src="/static/js/jqpaginator.min.js" type="text/javascript"></script>
+<script src="/static/js/lpage.js" type="text/javascript"></script>
+{/block}
